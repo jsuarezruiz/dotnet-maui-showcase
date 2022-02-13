@@ -4,6 +4,25 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [ChatApp](https://github.com/jsuarezruiz/netmaui-chat-app-challenge)
+
+Chat App UI Challenge made with .NET MAUI. Based on this [design](https://dribbble.com/shots/11470136-A-Messaging-App-Concept) by [Tannaz Sadeghi](https://dribbble.com/tannazsadeghi).
+
+![ChatApp](images/chatapp-maui.png)
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+## Features: 
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* DataTemplateSelector.
+
+### More information:
+- Author: [Javier Suárez](https://github.com/jsuarezruiz) 
+- Source code: [https://github.com/jsuarezruiz/netmaui-chat-app-challenge](https://github.com/jsuarezruiz/netmaui-chat-app-challenge)
+
 ## [.NET Podcasts](https://github.com/microsoft/dotnet-podcasts)
 
 .NET Podcast App is a sample application showcasing .NET 6, ASP.NET Core, Blazor, .NET MAUI, Azure Container Apps, and more.
