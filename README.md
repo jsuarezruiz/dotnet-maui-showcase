@@ -4,6 +4,25 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [ScientificCalculator](https://github.com/naweed/MauiScientificCalculator)
+
+A simple scientific calculator built uisng .NET MAUI Preview 14. Based ont his [Behance Concept](https://www.behance.net/gallery/79810231/UIUX-Challenge-04-05-Calculator-App-Icon). 
+
+![ScientificCalculator](images/scicalculator.jpg)
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+## Features: 
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Shadows.
+
+### More information:
+- Author: [Naweed Akram](https://github.com/naweed) 
+- Source code: [https://github.com/naweed/MauiScientificCalculator](https://github.com/naweed/MauiScientificCalculator)
+
 ## [ChatApp](https://github.com/jsuarezruiz/netmaui-chat-app-challenge)
 
 Chat App UI Challenge made with .NET MAUI. Based on this [design](https://dribbble.com/shots/11470136-A-Messaging-App-Concept) by [Tannaz Sadeghi](https://dribbble.com/tannazsadeghi).
