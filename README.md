@@ -4,6 +4,26 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [Pet Adoption UI](https://github.com/LeomarisReyes/PetAdoptionUI)
+
+Pet Adoption UI is a replica made in .NET MAUI. Design obteined from Dribble: https://dribbble.com/shots/9794301-Pet-Adoption-App
+
+![Pet Adoption UI](images/pet-adoption-ui.png)
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+## Features: 
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Layouts.
+
+### More information:
+- Author: [Leomaris Reyes](https://github.com/LeomarisReyes)
+- Blog post: [Replicating Pet Adoption UI in .NET MAUI](https://askxammy.com/replicating-pet-adoption-ui-in-net-maui/) 
+- Source code: [https://github.com/LeomarisReyes/PetAdoptionUI](https://github.com/LeomarisReyes/PetAdoptionUI)
+
 ## [F1TV](https://github.com/andreas-nesheim/MAUIUIJuly)
 
 F1TV app clone made with .NET MAUI.
