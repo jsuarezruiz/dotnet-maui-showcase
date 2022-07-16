@@ -4,6 +4,27 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [MauiPlanets](https://github.com/naweed/MauiPlanets)
+
+Planets Mobile App UI built using .Net Maui. Implements the [Dribbble design](https://dribbble.com/shots/15592060-Planet-Mobile-App)
+
+You can read about implementation of this design in [Part 1](https://blogs.xgenoapps.com/post/2022/07/08/maui-planets) and [Part 2](https://blogs.xgenoapps.com/post/2022/07/15/maui-planets-part-2) of the blog series.
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+## Features: 
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Animations.
+* Border
+
+### More information:
+- Author: [Naweed Akram](https://github.com/naweed)
+- Blog post: [.NET MAUI Travels to the space](https://blogs.xgenoapps.com/post/2022/07/08/maui-planets) 
+- Source code: [https://github.com/naweed/MauiPlanets](https://github.com/naweed/MauiPlanets)
+
 ## [Pet Adoption UI](https://github.com/LeomarisReyes/PetAdoptionUI)
 
 Pet Adoption UI is a replica made in .NET MAUI. Design obteined from Dribble: https://dribbble.com/shots/9794301-Pet-Adoption-App
