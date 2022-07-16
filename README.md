@@ -10,6 +10,8 @@ Planets Mobile App UI built using .Net Maui. Implements the [Dribbble design](ht
 
 You can read about implementation of this design in [Part 1](https://blogs.xgenoapps.com/post/2022/07/08/maui-planets) and [Part 2](https://blogs.xgenoapps.com/post/2022/07/15/maui-planets-part-2) of the blog series.
 
+![MauiPlanets](images/mauiplanets.png)
+
 ### Platforms
 
 Android, iOS, macOS and Windows.
