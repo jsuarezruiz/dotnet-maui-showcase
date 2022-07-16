@@ -4,6 +4,27 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [F1TV](https://github.com/andreas-nesheim/MAUIUIJuly)
+
+F1TV app clone made with .NET MAUI.
+
+![F1TV](images/f1tv.png)
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+## Features: 
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* CollectionView.
+* Border.
+
+### More information:
+- Author: [Andreas Nesheim](https://github.com/andreas-nesheim)
+- Blog post: [MAUI UI July – Replicating F1TV app](https://www.andreasnesheim.no/maui-ui-july-replicating-f1tv-app/) 
+- Source code: [https://github.com/andreas-nesheim/MAUIUIJuly](https://github.com/andreas-nesheim/MAUIUIJuly)
+
 ## [ScientificCalculator](https://github.com/naweed/MauiScientificCalculator)
 
 A simple scientific calculator built uisng .NET MAUI Preview 14. Based ont his [Behance Concept](https://www.behance.net/gallery/79810231/UIUX-Challenge-04-05-Calculator-App-Icon). 
