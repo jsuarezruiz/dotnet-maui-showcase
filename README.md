@@ -142,3 +142,23 @@ Android, iOS, macOS and Windows.
 
 ### More information:
 - Source code: [https://github.com/davidortinau/WeatherTwentyOne](https://github.com/davidortinau/WeatherTwentyOne)
+
+## [MAUI Finance](https://github.com/cemahseri/MauiFinance)
+
+UI built in .NET MAUI, based on [a Dribbble design](https://dribbble.com/shots/14210557-Finance-Mobile-Application-UX-UI-Design).
+
+![MauiFinance](images/maui-finance.png)
+
+### Platforms
+
+Android and iOS.
+
+## Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Shadows.
+* Borders.
+
+### More information:
+- Author: [Yunus Emre AYGÜN](https://github.com/cemahseri)
+- Source code: [https://github.com/cemahseri/MauiFinance](https://github.com/cemahseri/MauiFinance)
