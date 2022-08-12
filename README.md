@@ -143,6 +143,49 @@ Android, iOS, macOS and Windows.
 ### More information:
 - Source code: [https://github.com/davidortinau/WeatherTwentyOne](https://github.com/davidortinau/WeatherTwentyOne)
 
+## [MAUI Finance](https://github.com/cemahseri/MauiFinance)
+
+UI built in .NET MAUI, based on [a Dribbble design](https://dribbble.com/shots/14210557-Finance-Mobile-Application-UX-UI-Design).
+
+![MauiFinance](images/maui-finance.png)
+
+### Platforms
+
+Android and iOS.
+
+## Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, Handlers etc.
+* ControlTemplate
+* Borders
+
+### More information:
+- Author: [Yunus Emre AYGÜN](https://github.com/cemahseri)
+- Source code: [https://github.com/cemahseri/MauiFinance](https://github.com/cemahseri/MauiFinance)
+
+## [MAUI Starbucks Redesign](https://github.com/sattasundar/maui-starbucks-ui)
+
+UI built in .NET MAUI, based on [a Uplabs](https://www.uplabs.com/posts/starbucks-app-redesign-uplabs-challenge).
+
+![MauiStarbucksRedesign](images/maui-starbucks.png)
+
+### Platforms
+
+Android and iOS.
+
+## Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Shadows.
+* Borders.
+* CommunityToolkit.Mvvm.
+* CommunityToolkit.Maui.
+* CommunityToolkit.Splat.
+
+### More information:
+- Author: [Satta Sundar](https://github.com/sattasundar)
+- Source code: [https://github.com/sattasundar/maui-starbucks-ui](https://github.com/sattasundar/maui-starbucks-ui)
+
 ## [MAUI Payments with Prism](https://github.com/DamianSuess/Learn.MauiPaymentUi)
 
 Dynamic Credit Card Payment UI using .NET MAUI and [Prism Library](https://github.com/PrismLibrary) and text-mask behaviors. This project is inspired by the CrossGeeks [project](https://github.com/CrossGeeks/PaymentUISample).
