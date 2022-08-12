@@ -16,7 +16,7 @@ You can read about implementation of this design in [Part 1](https://blogs.xgeno
 
 Android, iOS, macOS and Windows.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Animations.
@@ -37,7 +37,7 @@ Pet Adoption UI is a replica made in .NET MAUI. Design obteined from Dribble: ht
 
 Android, iOS, macOS and Windows.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Layouts.
@@ -57,7 +57,7 @@ F1TV app clone made with .NET MAUI.
 
 Android, iOS, macOS and Windows.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * CollectionView.
@@ -78,7 +78,7 @@ A simple scientific calculator built uisng .NET MAUI Preview 14. Based ont his [
 
 Android, iOS, macOS and Windows.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Shadows.
@@ -97,7 +97,7 @@ Chat App UI Challenge made with .NET MAUI. Based on this [design](https://dribbb
 
 Android, iOS, macOS and Windows.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * DataTemplateSelector.
@@ -116,7 +116,7 @@ Android, iOS, macOS and Windows.
 
 Android, iOS, macOS and Windows.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Microsoft.Maui.Essentials
@@ -134,7 +134,7 @@ This is a [.NET MAUI](https://github.com/dotnet/maui) app showcasing .NET 6 Prev
 
 Android, iOS, macOS and Windows.
 
-## Features:
+### Features:
 
 * Use .NET 6 latest Preview
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
@@ -153,7 +153,7 @@ UI built in .NET MAUI, based on [a Dribbble design](https://dribbble.com/shots/1
 
 Android and iOS.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, Handlers etc.
 * ControlTemplate
@@ -173,7 +173,7 @@ UI built in .NET MAUI, based on [a Uplabs](https://www.uplabs.com/posts/starbuck
 
 Android and iOS.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Shadows.
