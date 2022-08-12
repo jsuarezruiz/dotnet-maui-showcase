@@ -155,10 +155,33 @@ Android and iOS.
 
 ## Features:
 
-* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
-* Shadows.
-* Borders.
+* Use all new .NET MAUI APIs: Startup, HostBuilder, Handlers etc.
+* ControlTemplate
+* Borders
 
 ### More information:
 - Author: [Yunus Emre AYGÜN](https://github.com/cemahseri)
 - Source code: [https://github.com/cemahseri/MauiFinance](https://github.com/cemahseri/MauiFinance)
+
+## [MAUI Starbucks Redesign](https://github.com/sattasundar/maui-starbucks-ui)
+
+UI built in .NET MAUI, based on [a Uplabs](https://www.uplabs.com/posts/starbucks-app-redesign-uplabs-challenge).
+
+![MauiStarbucksRedesign](images/maui-starbucks.png)
+
+### Platforms
+
+Android and iOS.
+
+## Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Shadows.
+* Borders.
+* CommunityToolkit.Mvvm.
+* CommunityToolkit.Maui.
+* CommunityToolkit.Splat.
+
+### More information:
+- Author: [Satta Sundar](https://github.com/sattasundar)
+- Source code: [https://github.com/sattasundar/maui-starbucks-ui](https://github.com/sattasundar/maui-starbucks-ui)
