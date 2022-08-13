@@ -4,7 +4,28 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [Surfing App](https://github.com/jsuarezruiz/netmaui-surfing-app-challenge)
+
+Surfing App UI Challenge made with .NET MAUI.
+
+![Surfing App](images/surfing-maui.png)
+
 ## [MauiPlanets](https://github.com/naweed/MauiPlanets)
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+### Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Border.
+* CollectionView.
+* Shadows.
+
+### More information:
+- Author: [Javier Suárez](https://github.com/jsuarezruiz)
+- Source code: [https://github.com/jsuarezruiz/netmaui-surfing-app-challenge](https://github.com/jsuarezruiz/netmaui-surfing-app-challenge)
 
 Planets Mobile App UI built using .Net Maui. Implements the [Dribbble design](https://dribbble.com/shots/15592060-Planet-Mobile-App)
 
