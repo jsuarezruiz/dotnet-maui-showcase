@@ -16,7 +16,7 @@ You can read about implementation of this design in [Part 1](https://blogs.xgeno
 
 Android, iOS, macOS and Windows.
 
-## Features: 
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Animations.
@@ -24,7 +24,7 @@ Android, iOS, macOS and Windows.
 
 ### More information:
 - Author: [Naweed Akram](https://github.com/naweed)
-- Blog post: [.NET MAUI Travels to the space](https://blogs.xgenoapps.com/post/2022/07/08/maui-planets) 
+- Blog post: [.NET MAUI Travels to the space](https://blogs.xgenoapps.com/post/2022/07/08/maui-planets)
 - Source code: [https://github.com/naweed/MauiPlanets](https://github.com/naweed/MauiPlanets)
 
 ## [Pet Adoption UI](https://github.com/LeomarisReyes/PetAdoptionUI)
@@ -37,14 +37,14 @@ Pet Adoption UI is a replica made in .NET MAUI. Design obteined from Dribble: ht
 
 Android, iOS, macOS and Windows.
 
-## Features: 
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Layouts.
 
 ### More information:
 - Author: [Leomaris Reyes](https://github.com/LeomarisReyes)
-- Blog post: [Replicating Pet Adoption UI in .NET MAUI](https://askxammy.com/replicating-pet-adoption-ui-in-net-maui/) 
+- Blog post: [Replicating Pet Adoption UI in .NET MAUI](https://askxammy.com/replicating-pet-adoption-ui-in-net-maui/)
 - Source code: [https://github.com/LeomarisReyes/PetAdoptionUI](https://github.com/LeomarisReyes/PetAdoptionUI)
 
 ## [F1TV](https://github.com/andreas-nesheim/MAUIUIJuly)
@@ -57,7 +57,7 @@ F1TV app clone made with .NET MAUI.
 
 Android, iOS, macOS and Windows.
 
-## Features: 
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * CollectionView.
@@ -65,12 +65,12 @@ Android, iOS, macOS and Windows.
 
 ### More information:
 - Author: [Andreas Nesheim](https://github.com/andreas-nesheim)
-- Blog post: [MAUI UI July – Replicating F1TV app](https://www.andreasnesheim.no/maui-ui-july-replicating-f1tv-app/) 
+- Blog post: [MAUI UI July – Replicating F1TV app](https://www.andreasnesheim.no/maui-ui-july-replicating-f1tv-app/)
 - Source code: [https://github.com/andreas-nesheim/MAUIUIJuly](https://github.com/andreas-nesheim/MAUIUIJuly)
 
 ## [ScientificCalculator](https://github.com/naweed/MauiScientificCalculator)
 
-A simple scientific calculator built uisng .NET MAUI Preview 14. Based ont his [Behance Concept](https://www.behance.net/gallery/79810231/UIUX-Challenge-04-05-Calculator-App-Icon). 
+A simple scientific calculator built uisng .NET MAUI Preview 14. Based ont his [Behance Concept](https://www.behance.net/gallery/79810231/UIUX-Challenge-04-05-Calculator-App-Icon).
 
 ![ScientificCalculator](images/scicalculator.jpg)
 
@@ -78,13 +78,13 @@ A simple scientific calculator built uisng .NET MAUI Preview 14. Based ont his [
 
 Android, iOS, macOS and Windows.
 
-## Features: 
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Shadows.
 
 ### More information:
-- Author: [Naweed Akram](https://github.com/naweed) 
+- Author: [Naweed Akram](https://github.com/naweed)
 - Source code: [https://github.com/naweed/MauiScientificCalculator](https://github.com/naweed/MauiScientificCalculator)
 
 ## [ChatApp](https://github.com/jsuarezruiz/netmaui-chat-app-challenge)
@@ -97,13 +97,13 @@ Chat App UI Challenge made with .NET MAUI. Based on this [design](https://dribbb
 
 Android, iOS, macOS and Windows.
 
-## Features: 
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * DataTemplateSelector.
 
 ### More information:
-- Author: [Javier Suárez](https://github.com/jsuarezruiz) 
+- Author: [Javier Suárez](https://github.com/jsuarezruiz)
 - Source code: [https://github.com/jsuarezruiz/netmaui-chat-app-challenge](https://github.com/jsuarezruiz/netmaui-chat-app-challenge)
 
 ## [.NET Podcasts](https://github.com/microsoft/dotnet-podcasts)
@@ -116,7 +116,7 @@ Android, iOS, macOS and Windows.
 
 Android, iOS, macOS and Windows.
 
-## Features: 
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Microsoft.Maui.Essentials
@@ -134,7 +134,7 @@ This is a [.NET MAUI](https://github.com/dotnet/maui) app showcasing .NET 6 Prev
 
 Android, iOS, macOS and Windows.
 
-## Features: 
+### Features:
 
 * Use .NET 6 latest Preview
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
@@ -153,7 +153,7 @@ UI built in .NET MAUI, based on [a Dribbble design](https://dribbble.com/shots/1
 
 Android and iOS.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, Handlers etc.
 * ControlTemplate
@@ -173,7 +173,7 @@ UI built in .NET MAUI, based on [a Uplabs](https://www.uplabs.com/posts/starbuck
 
 Android and iOS.
 
-## Features:
+### Features:
 
 * Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
 * Shadows.
@@ -185,3 +185,30 @@ Android and iOS.
 ### More information:
 - Author: [Satta Sundar](https://github.com/sattasundar)
 - Source code: [https://github.com/sattasundar/maui-starbucks-ui](https://github.com/sattasundar/maui-starbucks-ui)
+
+## [MAUI Payments with Prism](https://github.com/DamianSuess/Learn.MauiPaymentUi)
+
+Dynamic Credit Card Payment UI using .NET MAUI and [Prism Library](https://github.com/PrismLibrary) and text-mask behaviors. This project is inspired by the CrossGeeks [project](https://github.com/CrossGeeks/PaymentUISample).
+
+<img src="https://raw.githubusercontent.com/DamianSuess/Learn.MauiPaymentUi/master/SampleCards.gif" Width="250" />
+
+### Platforms
+
+Android, iOS, Windows, Tizen
+
+### Features
+
+* Prism.MAUI
+  * NavigationService
+  * DryIoc Dependency Injection
+  * MVVM
+* Behaviors
+* Custom Controls
+* Styles
+* XAML UI
+* Credit Card Layout
+
+### More Information
+
+* **Source Code:** [https://github.com/DamianSuess/Learn.MauiPaymentUi]
+* **Author:** Damian Suess - [Blog](https://suesslabs.com/) [GitHub](https://github.com/DamianSuess)
