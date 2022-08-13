@@ -4,6 +4,28 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [Beautyshop App](https://github.com/jsuarezruiz/netmaui-beautyshop-app-challenge)
+
+Beautyshop App UI Challenge made with .NET MAUI. 
+
+![Beautyshop App](images/beautyshop-app-challenge.gif)
+
+Based on this [design](https://dribbble.com/shots/15487383-Beauty-Product-Shop-App) by [Mahmudur Rahman](https://dribbble.com/MahmuduR).
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+### Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Create a new custom Layout.
+* BindableLayout.
+
+### More information:
+- Author: [Javier Suárez](https://github.com/jsuarezruiz)
+- Source code: [https://github.com/jsuarezruiz/netmaui-beautyshop-app-challenge](https://github.com/jsuarezruiz/netmaui-beautyshop-app-challenge)
+
 ## [MauiPlanets](https://github.com/naweed/MauiPlanets)
 
 Planets Mobile App UI built using .Net Maui. Implements the [Dribbble design](https://dribbble.com/shots/15592060-Planet-Mobile-App)
