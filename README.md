@@ -240,7 +240,7 @@ Android, iOS, Windows, Tizen
 
 Animated and customised Bottom Sheets plugin for .Net Maui UI [CustomSheets](https://www.nuget.org/packages/CustomSheets)
 
-![Demo Screens](https://user-images.githubusercontent.com/110095923/184805902-a921fb94-f79d-4bec-b160-e4d62ba16b48.png)
+![Demo Screens](images/Bottom%20Sheets.png)
 
 ### Supported platforms
 - [x] Android
