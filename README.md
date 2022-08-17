@@ -234,3 +234,24 @@ Android, iOS, Windows, Tizen
 
 * **Source Code:** [https://github.com/DamianSuess/Learn.MauiPaymentUi]
 * **Author:** Damian Suess - [Blog](https://suesslabs.com/) [GitHub](https://github.com/DamianSuess)
+
+
+## [Bottom Sheets](https://github.com/PremSaiVarada/DemoCustomSheets)
+
+Animated and customised Bottom Sheets plugin for .Net Maui UI [CustomSheets](https://www.nuget.org/packages/CustomSheets)
+
+![Demo Screens](images/Bottom%20Sheets.png)
+
+### Supported platforms
+- [x] Android
+- [?] iOS (Should work but I haven't tested)
+
+### Features
+
+* Fully customised
+* We can change sheet height, width, background, RoundRectangle, background click to close, change the content for close button
+
+### More Info
+
+* How to use : [https://github.com/PremSaiVarada/DemoCustomSheets](https://github.com/PremSaiVarada/DemoCustomSheets)
+* Author : [Prem V](https://github.com/PremSaiVarada/)
