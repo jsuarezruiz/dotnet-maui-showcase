@@ -51,7 +51,7 @@ Android, iOS, macOS and Windows.
 
 ## [Pet Adoption UI](https://github.com/LeomarisReyes/PetAdoptionUI)
 
-Pet Adoption UI is a replica made in .NET MAUI. Design obteined from Dribble: https://dribbble.com/shots/9794301-Pet-Adoption-App
+Pet Adoption UI is a replica made in .NET MAUI. Design obtained from Dribble: https://dribbble.com/shots/9794301-Pet-Adoption-App
 
 ![Pet Adoption UI](images/pet-adoption-ui.png)
 
