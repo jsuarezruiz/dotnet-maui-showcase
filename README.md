@@ -18,6 +18,8 @@ Ecommerce design with NET MAUI (MVVM Pattern)
 
 ## Preview
 <img  src="gifs/ecommerce.gif" width="250" height="520"> &nbsp;&nbsp;&nbsp; 
+<img src="images/ecommerce_maui1.jpg" width="250" height="520"> &nbsp;&nbsp;&nbsp; 
+<img src="images/ecommerce_maui2.jpg" width="250" height="520"> <br>
 
 ## [Beautyshop App](https://github.com/jsuarezruiz/netmaui-beautyshop-app-challenge)
 
