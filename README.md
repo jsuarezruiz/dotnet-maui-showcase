@@ -21,6 +21,11 @@ Ecommerce design with NET MAUI (MVVM Pattern)
 <img src="images/ecommerce_maui1.jpg" width="250" height="550"> &nbsp;&nbsp;&nbsp; 
 <img src="images/ecommerce_maui2.jpg" width="250" height="550"> <br>
 
+### More information
+- Author: [Santosh Dahal](https://github.com/exendahal)
+- Source code: [https://github.com/exendahal/EcommerceMAUI](https://github.com/exendahal/EcommerceMAUI)
+
+
 ## [Beautyshop App](https://github.com/jsuarezruiz/netmaui-beautyshop-app-challenge)
 
 Beautyshop App UI Challenge made with .NET MAUI. 
