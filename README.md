@@ -277,3 +277,24 @@ Animated and customised Bottom Sheets plugin for .Net Maui UI [CustomSheets](htt
 
 * How to use : [https://github.com/PremSaiVarada/DemoCustomSheets](https://github.com/PremSaiVarada/DemoCustomSheets)
 * Author : [Prem V](https://github.com/PremSaiVarada/)
+
+## [Coffeeffee](https://github.com/zdanovs/Coffeeffee-MAUI)
+
+Implementation of a [coffee shopping UI](https://dribbble.com/shots/11246934-Product-Page-Ui-Exploration/attachments/2854822?mode=media) using .NET MAUI
+
+![Demo Screens](images/coffeeffee.png)
+
+### Supported platforms
+- [x] iOS
+- [x] Android
+
+### Features
+- CarouselView
+- Custom Fonts
+- Shapes
+
+### More Info
+
+- Source code: [https://github.com/zdanovs/Coffeeffee-MAUI](https://github.com/zdanovs/Coffeeffee-MAUI)
+- Author: [Andrey Zhdanov](https://www.linkedin.com/in/zdanovs)
+- Original author (of the Xamarin version): [Steven Thewissen](https://twitter.com/devnl)
