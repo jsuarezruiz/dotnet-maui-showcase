@@ -48,7 +48,7 @@ Android, iOS, macOS and Windows.
 - Author: [Javier Suárez](https://github.com/jsuarezruiz)
 - Source code: [https://github.com/jsuarezruiz/netmaui-beautyshop-app-challenge](https://github.com/jsuarezruiz/netmaui-beautyshop-app-challenge)
 
-## [MauiPlanets](https://github.com/naweed/MauiPlanets)
+## [Maui Planets](https://github.com/naweed/MauiPlanets)
 
 Planets Mobile App UI built using .Net Maui. Implements the [Dribbble design](https://dribbble.com/shots/15592060-Planet-Mobile-App)
 
@@ -58,7 +58,8 @@ You can read about implementation of this design in [Part 1](https://blogs.xgeno
 
 ### Platforms
 
-Android, iOS, macOS and Windows.
+- [x] iOS
+- [x] Android
 
 ### Features:
 
@@ -116,11 +117,13 @@ Android, iOS, macOS and Windows.
 
 A simple scientific calculator built uisng .NET MAUI Preview 14. Based ont his [Behance Concept](https://www.behance.net/gallery/79810231/UIUX-Challenge-04-05-Calculator-App-Icon).
 
-![ScientificCalculator](images/scicalculator.jpg)
+![Scientific Calculator](images/scicalculator.jpg)
 
 ### Platforms
 
-Android, iOS, macOS and Windows.
+- [x] iOS
+- [x] Android
+- [x] Windows
 
 ### Features:
 
@@ -298,3 +301,26 @@ Implementation of a [coffee shopping UI](https://dribbble.com/shots/11246934-Pro
 - Source code: [https://github.com/zdanovs/Coffeeffee-MAUI](https://github.com/zdanovs/Coffeeffee-MAUI)
 - Author: [Andrey Zhdanov](https://www.linkedin.com/in/zdanovs)
 - Original author (of the Xamarin version): [Steven Thewissen](https://twitter.com/devnl)
+
+## [BMI Calculator](https://github.com/naweed/MauiBMICalculator)
+
+A simple and gorgeous BMI Calculator built using .NET MAUI and Skia Sharp. Inspired by this [Dribble Design](https://dribbble.com/shots/7735120-BMI-BMR-Calculator-App-Free-UI-Kit-1-Dribbble-Invitation).
+
+![BMI Calculator](https://user-images.githubusercontent.com/103980/185792455-2061e25c-cd58-463f-a8cc-3e7b6dd5e33d.jpeg)
+
+### Platforms
+- [x] iOS
+- [x] Android
+
+### Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* SkiaSharp.
+
+### More information:
+- Author: [Naweed Akram](https://github.com/naweed)
+- Source code: [https://github.com/naweed/MauiBMICalculator](https://github.com/naweed/MauiBMICalculator)
+
+### Running App
+https://user-images.githubusercontent.com/103980/185792503-6b6a8178-241a-4b50-99dd-68f73bbbc7ee.mp4
+
