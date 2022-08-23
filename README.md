@@ -322,7 +322,7 @@ A simple and gorgeous BMI Calculator built using .NET MAUI and Skia Sharp. Inspi
 - Source code: [https://github.com/naweed/MauiBMICalculator](https://github.com/naweed/MauiBMICalculator)
 
 ### Running App
-https://user-images.githubusercontent.com/45868547/186158735-c602c9d8-90da-4629-86c1-c06acdbeabd6.mp4
+https://user-images.githubusercontent.com/103980/185792503-6b6a8178-241a-4b50-99dd-68f73bbbc7ee.mp4
 
 ## [Band Tracker](https://github.com/michaldivis/band-tracker-app)
 
