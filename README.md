@@ -322,7 +322,28 @@ A simple and gorgeous BMI Calculator built using .NET MAUI and Skia Sharp. Inspi
 - Source code: [https://github.com/naweed/MauiBMICalculator](https://github.com/naweed/MauiBMICalculator)
 
 ### Running App
-https://user-images.githubusercontent.com/103980/185792503-6b6a8178-241a-4b50-99dd-68f73bbbc7ee.mp4
+https://user-images.githubusercontent.com/45868547/186158735-c602c9d8-90da-4629-86c1-c06acdbeabd6.mp4
+
+## [Band Tracker](https://github.com/michaldivis/band-tracker-app)
+
+A demo music artist release and live show tracker app built with .NET MAUI.
+
+![Band Tracker](images/band_tracker.jpg)
+
+### Platforms
+- [x] iOS
+- [x] Android
+
+### Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Gradients, Frames
+* WebView
+* SkiaSharp.Extended (Lottie animations)
+
+### More information:
+- Author: [Michal Diviš](https://github.com/michaldivis)
+- Source code: [https://github.com/michaldivis/band-tracker-app](https://github.com/michaldivis/band-tracker-app)
 
 ## [MAUI Focus](https://github.com/pedroldk/maui-focus)
 
@@ -336,11 +357,6 @@ A focus app using .NET MAUI.
 - [x] Android
 - [x] Windows
 
-### Features:
-
-* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
-
 ### More information:
 - Author: [Pedro Coelho](https://github.com/pedroldk)
 - Source code: [https://github.com/pedroldk/maui-focus](https://github.com/pedroldk/maui-focus)
-
