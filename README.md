@@ -324,3 +324,23 @@ A simple and gorgeous BMI Calculator built using .NET MAUI and Skia Sharp. Inspi
 ### Running App
 https://user-images.githubusercontent.com/103980/185792503-6b6a8178-241a-4b50-99dd-68f73bbbc7ee.mp4
 
+## [Band Tracker](https://github.com/michaldivis/band-tracker-app)
+
+A demo music artist release and live show tracker app built with .NET MAUI.
+
+![Band Tracker](images/band_tracker.jpg)
+
+### Platforms
+- [x] iOS
+- [x] Android
+
+### Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Gradients, Frames
+* WebView
+* SkiaSharp.Extended (Lottie animations)
+
+### More information:
+- Author: [Michal Diviš](https://github.com/michaldivis)
+- Source code: [https://github.com/michaldivis/band-tracker-app](https://github.com/michaldivis/band-tracker-app)
