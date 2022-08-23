@@ -345,6 +345,9 @@ A demo music artist release and live show tracker app built with .NET MAUI.
 - Author: [Michal Diviš](https://github.com/michaldivis)
 - Source code: [https://github.com/michaldivis/band-tracker-app](https://github.com/michaldivis/band-tracker-app)
 
+### Running App
+https://user-images.githubusercontent.com/45868547/186158735-c602c9d8-90da-4629-86c1-c06acdbeabd6.mp4
+
 ## [MAUI Focus](https://github.com/pedroldk/maui-focus)
 
 A focus app using .NET MAUI.
