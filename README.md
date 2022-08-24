@@ -347,3 +347,19 @@ A demo music artist release and live show tracker app built with .NET MAUI.
 
 ### Running App
 https://user-images.githubusercontent.com/45868547/186158735-c602c9d8-90da-4629-86c1-c06acdbeabd6.mp4
+
+## [MAUI Focus](https://github.com/pedroldk/maui-focus)
+
+A focus app using .NET MAUI.
+
+![MAUI Focus](images/mauifocus.png)
+
+### Platforms
+
+- [x] iOS
+- [x] Android
+- [x] Windows
+
+### More information:
+- Author: [Pedro Coelho](https://github.com/pedroldk)
+- Source code: [https://github.com/pedroldk/maui-focus](https://github.com/pedroldk/maui-focus)
