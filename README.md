@@ -363,3 +363,25 @@ A focus app using .NET MAUI.
 ### More information:
 - Author: [Pedro Coelho](https://github.com/pedroldk)
 - Source code: [https://github.com/pedroldk/maui-focus](https://github.com/pedroldk/maui-focus)
+
+## [Medicine Tracker](https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge)
+
+Implementation of a [Medicine tracker app UI](https://dribbble.com/shots/19130423-Medicine-reminder-mobile-app) using .NET MAUI
+
+![Demo Screens](images/medicine_tracker.jpg)
+
+### Supported platforms
+- [x] iOS
+- [x] Android
+
+### Features
+- CarouselView
+- IndicatorView
+- CollectionView
+- Custom Fonts
+- Font Icons
+
+### More Info
+
+- Source code: [https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge](https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge)
+- Author: [Thaveesha Kannangara](www.linkedin.com/in/thaveesha-kannangara)
