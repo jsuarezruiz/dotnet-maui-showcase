@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net6.0-windows10.0.19041.0</TargetFrameworks>
+		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+		<!-- <TargetFrameworks>$(TargetFrameworks);net6.0-tizen</TargetFrameworks> -->
+		<OutputType>Exe</OutputType>
+		<RootNamespace>GalaxyLogicGameMAUI</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Display name -->
+		<ApplicationTitle>Galaxy Logic Game</ApplicationTitle>
+
+		<!-- App Identifier -->
+		<ApplicationId>com.companyname.galaxylogicgame.mobile</ApplicationId>
+		<ApplicationIdGuid>4BDBEAD9-5C0C-4C74-B970-B3581365394E</ApplicationIdGuid>
+
+		<!-- Versions -->
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">14.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\galaxylogo360.png" Color="#2b2b2b" />
+
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\galaxylogogray.jpg" Color="#000000" BaseSize="128,128" />
+
+		<!-- Images -->
+		<MauiImage Include="Resources\Images\*" />
+
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+
+		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\AtomicBombBG.png" />
+	  <None Remove="Resources\Images\AtomicBombFill.png" />
+	  <None Remove="Resources\Images\AtomicBombShiny.png" />
+	  <None Remove="Resources\Images\checkingnfts.png" />
+	  <None Remove="Resources\Images\checkyourwallet.png" />
+	  <None Remove="Resources\Images\externallink.png" />
+	  <None Remove="Resources\Images\gamejambackground.png" />
+	  <None Remove="Resources\Images\happygirl.gif" />
+	  <None Remove="Resources\Images\loadingqrcode.png" />
+	  <None Remove="Resources\Images\metamask.png" />
+	  <None Remove="Resources\Images\nointernet.png" />
+	  <None Remove="Resources\Images\playgamejam.png" />
+	  <None Remove="Resources\Images\randomanimegirl.png" />
+	  <None Remove="Resources\Images\sadgirl.gif" />
+	  <None Remove="Resources\Images\supernovaflashy.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="WalletConnect.Desktop" Version="1.7.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\GalaxyLogicGame\GalaxyLogicGame.csproj" />
+	</ItemGroup>
+
+</Project>

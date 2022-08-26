@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.DevelopmentInfoThumbnail"
+                WidthRequest="360" HeightRequest="240" HorizontalOptions="Center" VerticalOptions="Start">
+    <Image AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="SizeProportional" Aspect="AspectFit" x:Name="mainImage"/>
+    <Label AbsoluteLayout.LayoutBounds="0.52, 0.52, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+           FontAttributes="Bold" FontFamily="BigNoodleTitling" FontSize="40" TextColor="Black"
+           x:Name="titleShadow" Opacity="0.7"/>
+    <Label AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+           FontAttributes="Bold" FontFamily="BigNoodleTitling" FontSize="40" TextColor="White"
+           x:Name="title"/>
+    
+    <AbsoluteLayout.GestureRecognizers>
+        <TapGestureRecognizer Tapped="OnClicked"/>
+    </AbsoluteLayout.GestureRecognizers>
+
+    
+</AbsoluteLayout>

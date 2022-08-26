@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="GalaxyLogicGame.Blackhole"
+       AbsoluteLayout.LayoutBounds="100, 100, 160, 160"
+                x:Name="mainLayout">
+    <AbsoluteLayout>
+        <!-- has to be here to stop lagging out when rotating -->
+    </AbsoluteLayout>
+    <Image x:Name="bh" Source="blackhole.png" AbsoluteLayout.LayoutBounds="0.5, 0.5, 90, 90" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+</AbsoluteLayout>
+    

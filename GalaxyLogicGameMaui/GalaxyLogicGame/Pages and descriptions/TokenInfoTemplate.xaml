@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.TokenInfoTemplate"
+             HorizontalOptions="Center" HeightRequest="125" WidthRequest="320">
+    <Button BackgroundColor="#1f1f1f" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" CornerRadius="30" IsEnabled="False"/>
+
+
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 0, 320, 85" x:Name="powerupDescriptionLayout"/>
+
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 85, 320, 40">
+        <Label AbsoluteLayout.LayoutBounds="20, 0.5, AutoSize, AutoSize" x:Name="contractAddressLabel" AbsoluteLayout.LayoutFlags="YProportional" VerticalTextAlignment="Center"
+               FontSize="14" FontFamily="SamsungOne" TextColor="White" FontAttributes="Bold"/>
+        <Label AbsoluteLayout.LayoutBounds="0, 0.5, 300, AutoSize" x:Name="tokenIdLabel" AbsoluteLayout.LayoutFlags="YProportional" VerticalTextAlignment="Center" 
+               HorizontalTextAlignment="End" 
+               FontSize="14" FontFamily="SamsungOne" TextColor="White" FontAttributes="Bold"/>
+    </AbsoluteLayout>
+</AbsoluteLayout>

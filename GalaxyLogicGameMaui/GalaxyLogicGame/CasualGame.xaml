@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<galaxylogicgame:Game xmlns:galaxylogicgame="clr-namespace:GalaxyLogicGame" xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.CasualGame" WidthRequest="360" HeightRequest="360" MinimumHeightRequest="360" MinimumWidthRequest="360">
+
+
+
+    <AbsoluteLayout x:Name="particleLayout" AbsoluteLayout.LayoutBounds="0,0, 360, 360">
+        <BoxView/>
+    </AbsoluteLayout>
+
+    <AbsoluteLayout x:Name="eventCounterLayout"
+                            AbsoluteLayout.LayoutBounds="152.5, 215, 55, 22.5"
+                            IsVisible="False">
+        <!-- Add empty and filled stages -->
+
+        <!-- Not visible in casual game -->
+    </AbsoluteLayout>
+
+
+    <AbsoluteLayout x:Name="blackholeLayout"
+                            AbsoluteLayout.LayoutBounds="0, 0, 360, 360">
+
+    </AbsoluteLayout>
+    <AbsoluteLayout x:Name="atomsLayout"
+                            AbsoluteLayout.LayoutBounds="0, 0, 360, 360">
+        <!-- "atoms" array -->
+        <Label x:Name="debuggingLabel" AbsoluteLayout.LayoutBounds="90, 180, 60, 180"/>
+    </AbsoluteLayout>
+
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 0, 360, 360"
+                            x:Name="blindnessLayout">
+        <!-- ... -->
+    </AbsoluteLayout>
+
+    <AbsoluteLayout x:Name="clickableAreaLayout"
+                            AbsoluteLayout.LayoutBounds="0, 0, 360, 360">
+        <!-- "clickableArea" array -->
+    </AbsoluteLayout>
+
+
+
+    
+</galaxylogicgame:Game>
+
+
+
+
+
+
+
+
+
+
+

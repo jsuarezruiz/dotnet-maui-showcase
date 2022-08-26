@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<galaxylogicgame:GameBGBase xmlns:galaxylogicgame="clr-namespace:GalaxyLogicGame;assembly=GalaxyLogicGame"
+                            xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                            xmlns:powerups="clr-namespace:GalaxyLogicGame.Powerups"
+                            x:Class="GalaxyLogicGame.Mobile.GameBG" BackgroundColor="Black">
+    <galaxylogicgame:GameBGBase.Content>
+        <AbsoluteLayout x:Name="mainLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, 480, 720" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 480, 640" AbsoluteLayout.LayoutFlags="PositionProportional">
+                <AbsoluteLayout x:Name="backgroundLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, 720, 720" AbsoluteLayout.LayoutFlags="PositionProportional">
+                    <Image x:Name="backgroundImage" Source="galaxyBackground.png" 
+                   
+                   AbsoluteLayout.LayoutBounds="0.5, 0.5, 480, 480"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   Aspect="AspectFill"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout x:Name="lowerUILayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 640" AbsoluteLayout.LayoutFlags="PositionProportional" MinimumHeightRequest="360" MinimumWidthRequest="360">
+
+                    <Label x:Name="scoreLabel"
+                   AbsoluteLayout.LayoutBounds="0.5, 0, AutoSize, AutoSize"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="60"
+                   FontAttributes="Bold"
+                   FontFamily="BigNoodleTitling"
+                   Text="0"
+                     TextColor="White"/>
+                    <Image x:Name="empty1"
+                   Source="empty.png"
+                   AbsoluteLayout.LayoutBounds="152.5, 75, 15, 15"
+                   IsVisible="false"/>
+                    <Image x:Name="empty2"
+                   Source="empty.png"
+                   AbsoluteLayout.LayoutBounds="172.5, 67.5, 15, 15"
+                   IsVisible="false"/>
+                    <Image x:Name="empty3"
+                   Source="empty.png"
+                   AbsoluteLayout.LayoutBounds="192.5, 75, 15, 15"
+                   IsVisible="false"/>
+
+                    <Image x:Name="filled1"
+                   Source="filledCircle.png"
+                   AbsoluteLayout.LayoutBounds="152.5, 75, 15, 15"
+                   IsVisible="false"/>
+                    <Image x:Name="filled2"
+                   Source="filledCircle.png"
+                   AbsoluteLayout.LayoutBounds="172.5, 67.5, 15, 15"
+                   IsVisible="false"/>
+                    <Image x:Name="filled3"
+                   Source="filledCircle.png"
+                   AbsoluteLayout.LayoutBounds="192.5, 75, 15, 15"
+                   IsVisible="false"/>
+                </AbsoluteLayout>
+            </AbsoluteLayout>
+            
+
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" x:Name="lowerEventLayout"/>
+
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                            x:Name="gameLayout"/>
+
+            <!-- keep this here "RAISED" -->
+            <!--
+            <watch:PowerupArrows x:Name="powerupArrows">
+                <watch:PowerupArrows.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="PowerupArrowsClicked"/>
+                </watch:PowerupArrows.GestureRecognizers>
+            </watch:PowerupArrows>
+            -->
+            
+            <!-- Tady budou power-upy -->
+            <powerups:PowerupsLayout x:Name="powerupsLayout"/>
+
+
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" x:Name="eventLayout" IsVisible="false"/>
+
+            
+            
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" x:Name="tutorialLayout" IsVisible="false"/>
+
+                <AbsoluteLayout x:Name="lostScreen" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="#AA000000">
+                        <!-- For some reason was buggy and I had to put the contents underneath it -->
+                    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+                        <Label Text="You have lost" AbsoluteLayout.LayoutBounds="0.5, 115, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="XProportional" IsVisible="true" 
+                                x:Name="lostScreenText"  FontSize="24"/>
+
+                    <Label Text="Main menu" AbsoluteLayout.LayoutBounds="0.5, 185, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="XProportional" IsVisible="true" TextColor="#45ffed"
+                               FontSize="48" FontFamily="BigNoodleTitling" FontAttributes="Bold"
+                                x:Name="lostScreenButton">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ToMainMenu"/>
+                            </Label.GestureRecognizers>
+                        </Label>                    
+                    </AbsoluteLayout>
+
+                </AbsoluteLayout>
+
+
+
+                <AbsoluteLayout IsVisible="false">
+                    <AbsoluteLayout x:Name="transitionLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, 360" IsVisible="false">
+
+                    </AbsoluteLayout>
+                </AbsoluteLayout>
+            
+            
+            
+        </AbsoluteLayout>
+    </galaxylogicgame:GameBGBase.Content>
+</galaxylogicgame:GameBGBase>

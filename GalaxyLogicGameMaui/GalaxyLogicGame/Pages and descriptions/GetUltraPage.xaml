@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:pages_and_descriptions="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.GetUltraPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <pages_and_descriptions:Header TitleText="Upgrade to Ultra" TitleColor="Yellow"/>
+                <StackLayout HorizontalOptions="Center" WidthRequest="320" Spacing="0">
+                    <Label Text="- Get challenges" FontSize="30"/>
+                    <Label Text="- Set up a Custom mode" FontSize="30"/>
+                    <Label Text="- Unlock power-ups" FontSize="30"/>
+                    <Label Text="- Get new updates months earlier" FontSize="30"/>
+                    <Label Text="- No ads" FontSize="30"/>
+                    <Label Text="- Help me develop more apps and updates" FontSize="30"/>
+                </StackLayout>
+                <Label Text="For only $2.40" HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Image Source="qr code300x300.png" Aspect="AspectFit" HeightRequest="260" WidthRequest="260"/>
+                <BoxView HeightRequest="50"/>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

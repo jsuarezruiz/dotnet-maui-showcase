@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.GameJamEventDescription"
+                WidthRequest="320" HeightRequest="125"
+                HorizontalOptions="Center">
+    <Image AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"
+           Source="gamejambackground.png"/>
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 0, 85, 85">
+        <Image x:Name="thumbnail"
+           Aspect="AspectFit"
+           AbsoluteLayout.LayoutBounds=".5, .5, 60, 60" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="85, 0, 235, 85">
+
+        <Label x:Name="title" FontSize="20" FontAttributes="Bold" FontFamily="SamsungOne" TextColor="White" VerticalOptions="CenterAndExpand"
+               AbsoluteLayout.LayoutBounds="5, 5, 225, AutoSize"/>
+        <Label x:Name="description" FontSize="12" FontAttributes="None" FontFamily="SamsungOne" TextColor="White" VerticalOptions="CenterAndExpand"
+               AbsoluteLayout.LayoutBounds="5, 30, 225, AutoSize"/>
+    </AbsoluteLayout>
+    <BoxView AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="SizeProportional" Opacity="0"/>
+</AbsoluteLayout>

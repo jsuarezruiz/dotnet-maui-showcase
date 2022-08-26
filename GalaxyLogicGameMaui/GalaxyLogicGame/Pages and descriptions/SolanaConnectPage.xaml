@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.SolanaConnectPage"
+             xmlns:pages_and_descriptions="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+             Title="SolanaConnectPage" BackgroundColor="Black">
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+        <AbsoluteLayout x:Name="scaleLayout"  AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Image x:Name="wallpaper" Source="wallpaper1.png" AbsoluteLayout.LayoutBounds="0.5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill" TranslationY="180" Opacity="0"/>
+
+            <AbsoluteLayout x:Name="starsLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional">
+
+            </AbsoluteLayout>
+            <ScrollView x:Name="scroll" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" HorizontalScrollBarVisibility="Never" Orientation="Vertical">
+                <AbsoluteLayout x:Name="mainLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize"  TranslationY="180" Opacity="0">
+                    <StackLayout x:Name="stackLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize">
+                        <pages_and_descriptions:Header TitleText="Connect to SOLANA" SmallTitleText=""/>
+
+                        <!--<Button HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="DarkBlue" Text="Connect to Ethereum" Clicked="OnEthereumButtonClicked" />
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" Text="Connect to Ethereum" x:Name="adressLabel"/>
+                        <Editor HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="320" HeightRequest="100" x:Name="wordPhraseEditor"
+                                    Placeholder="Word phrase (mnemonics)" TextColor="White" BackgroundColor="#222"/>-->
+
+                        <AbsoluteLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" HeightRequest="270">
+                            <Image x:Name="link" Source="solanaglgtesttokenmint" IsAnimationPlaying="True" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="270" HeightRequest="270"
+                                   AbsoluteLayout.LayoutBounds="0.5, 0.5, 270, 270" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                            <StackLayout x:Name="nftLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional">
+
+                            </StackLayout>
+                        </AbsoluteLayout>
+
+                        <!--<Label HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" Text="Balance: .." x:Name="balanceLabel"/>
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" Text=".." x:Name="accountLabel"/>
+
+
+                        <Button HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Green" Text="Mint NFT" Clicked="MintNFTClicked"/>
+                        <Button HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="DarkRed" Text="Get key phrase" Clicked="KeyPhraseClicked"/>-->
+
+
+                        <BoxView HeightRequest="120"/>
+                    </StackLayout>
+                </AbsoluteLayout>
+            </ScrollView>
+        </AbsoluteLayout>
+    </AbsoluteLayout>
+</ContentPage>

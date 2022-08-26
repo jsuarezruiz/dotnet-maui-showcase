@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Particles.PlanetDetonationParticle"
+                AbsoluteLayout.LayoutBounds="0, 0, 360, 360">
+    <BoxView/>
+    <BoxView x:Name="box1" AbsoluteLayout.LayoutBounds="150, 150, 30, 30" CornerRadius="30, 0, 0, 0" Scale="0.65"/>
+    <BoxView x:Name="box2" AbsoluteLayout.LayoutBounds="180, 150, 30, 30" CornerRadius="0, 30, 0, 0" Scale="0.65"/>
+    <BoxView x:Name="box3" AbsoluteLayout.LayoutBounds="150, 180, 30, 30" CornerRadius="0, 0, 30, 0" Scale="0.65"/>
+    <BoxView x:Name="box4" AbsoluteLayout.LayoutBounds="180, 180, 30, 30" CornerRadius="0, 0, 0, 30" Scale="0.65"/>
+</AbsoluteLayout>

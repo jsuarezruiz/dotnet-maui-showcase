@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:galaxylogicgame="clr-namespace:GalaxyLogicGame"
+                x:Class="GalaxyLogicGame.Pages_and_descriptions.ChallengeDescriptionWithPowerup"
+                WidthRequest="320" HeightRequest="125"
+                HorizontalOptions="Center">
+    <BoxView BackgroundColor="#1f1f1f" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" CornerRadius="30"/>
+    <galaxylogicgame:ChallengeDescription x:Name="challengeDescription"/>
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 85, 320, 40">
+        <Label AbsoluteLayout.LayoutBounds="20, 0.5, AutoSize, AutoSize" x:Name="powerupLabel" AbsoluteLayout.LayoutFlags="YProportional" VerticalTextAlignment="Center"
+               FontSize="{OnPlatform Tizen=14, Android=12, UWP=12}" FontFamily="SamsungOne" TextColor="White" FontAttributes="Bold"/>
+        <Image AbsoluteLayout.LayoutBounds="280, 10, 20, 20" Source="info.png" Aspect="AspectFit"/>
+    </AbsoluteLayout>
+
+    <AbsoluteLayout.GestureRecognizers>
+        <TapGestureRecognizer Tapped="OnClicked"/>
+    </AbsoluteLayout.GestureRecognizers>
+
+</AbsoluteLayout>

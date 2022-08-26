@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:pages_and_descriptions="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.AboutDevelopmentMissing">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="Black">
+                <pages_and_descriptions:Header TitleText="About Development"/>
+                <Label Text="You will need to download an extra extension by scanning the QR code bellow." HorizontalOptions="Center" WidthRequest="320"/>
+
+                <Image Source="aboutDevelopmentQR.png" Aspect="AspectFit" HeightRequest="260" WidthRequest="260"/>
+                <BoxView HeightRequest="50"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Powerups.PowerupBase"
+                WidthRequest="90" HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Center"
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, 90, 90" AbsoluteLayout.LayoutFlags="PositionProportional">
+    <Image x:Name="bg" AbsoluteLayout.LayoutBounds="0.5, 0.5, 60, 60" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    <Image x:Name="fill" AbsoluteLayout.LayoutBounds="15, 15, 60, 60" Aspect="AspectFill" />
+    <Image x:Name="shiny" AbsoluteLayout.LayoutBounds="0.5, 0.5, 90, 90" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+    <AbsoluteLayout.GestureRecognizers>
+        <TapGestureRecognizer Tapped="OnUsePowerupClicked"/>
+    </AbsoluteLayout.GestureRecognizers>
+</AbsoluteLayout>

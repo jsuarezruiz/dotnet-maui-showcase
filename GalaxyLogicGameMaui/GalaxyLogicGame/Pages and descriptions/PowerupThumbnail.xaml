@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.PowerupThumbnail"
+             WidthRequest="320" HeightRequest="90">
+    <Button AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="SizeProportional" BackgroundColor="#2f2f2f"/>
+    <BoxView AbsoluteLayout.LayoutBounds="0, 0, 90, 90" Scale="0.9"
+             x:Name="powerupBackground"/>
+    <Image AbsoluteLayout.LayoutBounds="0, 0, 90, 90" Aspect="AspectFit"
+           x:Name="powerupImage"/>
+
+    <StackLayout AbsoluteLayout.LayoutBounds="90, 60, 230, 30" Orientation="Horizontal" Spacing="10">
+        
+    </StackLayout>
+</AbsoluteLayout>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:pages_and_descriptions="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.AboutDevelopmentMainPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="10" x:Name="stackLayout">
+                <pages_and_descriptions:Header TitleText="About development"/>
+                <!--<ScrollView Orientation="Horizontal" HeightRequest="60" WidthRequest="360" BackgroundColor="#2f2f2f">
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="123" BorderWidth="5" BorderColor="Red" BackgroundColor="#000000" />
+                        <Button Text="123"/>
+                        <Button Text="123"/>
+                        <Button Text="123"/>
+                        <Button Text="123"/>
+                        <Button Text="123"/>
+                        <Button Text="123"/>
+
+                    </StackLayout>
+                    
+                </ScrollView>-->
+
+                <pages_and_descriptions:DevelopmentInfoThumbnail TitleText="Christmas" MainImage="christmasThumbnail.png"
+                                                                 Text="Christmas is here and let's celebrate it together! I bring you the last update of this year! I will not do the yearly conclusion right now, since the year still has not ended. The biggest thing I have added is a new timely exclusive event &quot;Christmas&quot;. Go try it out! And for everyone out there who has not paid for ultra version is getting all the extra stuff added in the previous 4.0 update."
+                                                                 FirstImage="christmasDescription.png"
+                                                                 SecondText="Christmas for me is mainly about spending time with the family and just having fun. Also it has lately became the only time for me to play games. I will take break from programming and will do just that!"
+                                                                 SecondImage="christmasFun.png"
+                                                                 ThirdText="I am really looking forward to playing Tales of arise – I have already spent 10 hours playing it during the last month and it is the most enjoyable game I have ever played next to Xenoblade chronicles series and The legend of Zelda breath of the wild / ocarina of time."/>
+                
+                <pages_and_descriptions:DevelopmentInfoThumbnail TitleText="Widget" MainImage="widget.png" IsTitleVisible="false"
+                                                                 Text="Finally, I can announce that in this update, I have included a new widget. I really wanted to publish this before Christmas, so please sorry me for lazier design, in the next update, you can expect a redesign, the main purpose now is to push this out to you to try it out and see if it works, as it should."
+                                                                 FirstImage="addWidget.png"
+                                                                 SecondText="Now the reason why it came so late? In my other app (Procvičování Y/I – available only in Czech Republic) I was able to create a widget without any big problems, but for some reason, I was always getting an error &quot;Merge manifest task failed&quot; here. I was trying to fix it since September, and I spent countless hours figuring out what was wrong. The solution: you must include the same &quot;property groups&quot; in all tizen-manifest.xml files. So, for example if one of the tizen-manifest.xml has some privileges, you must include that privileges group into the second tizen-manifest.xml file too, in order to merge them properly."
+                                                                 SecondImage="mergeManifestFix.png"
+                                                                 ThirdText="Also this is the reason why LiteNotes still has not come out, but do not worry, I am working on it. If you are a programmer, I hope this helped you."/>
+                
+                <pages_and_descriptions:DevelopmentInfoThumbnail TitleText="Power-ups" MainImage="powerupsThumbnail.png"
+                                                                 Text="One of the biggest additions in update 4.0 were power-ups. They allow you to alter the game by your needs and they help you come over many events. You can unlock them by completing challenges."
+                                                                 FirstImage="challengesArticleImage.png"
+                                                                 SecondText="The main idea behind power-ups was to create new gameplay loops and to add even more variety and options to you to alter the game. This allows more complex combinations, and you will have to be more cautious of every move."/>
+
+                <pages_and_descriptions:DevelopmentInfoThumbnail TitleText="What is About development?" MainImage="WhatIsAboutDevelopmentThumbnail.png"
+                                                                 Text="Welcome to a completelly new page where I will give you more insight into the development of the game. So if you are a true enthusiast, you will surelly appreciate all the articles I put up here. I have searched for many ways on how to be more transparent to you. I have settled on this format for now, because everything is in one place - you do not even need to open any other app like facebook, discord, twitter..."
+                                                                 FirstImage="DiscordQuestionmark.png"
+                                                                 SecondText="Speaking of discord, I am really thinking about to start using it, because it seems to be the easiest way to get as close to you as possible. Also you can always share me your feedback via email: rostislavlitovkin@gmail.com. I would be more than happy to reply to you."/>
+                
+                <pages_and_descriptions:DevelopmentInfoThumbnail TitleText="Update 4.0 done" MainImage="update40DoneThumbnail.png" IsTitleVisible="false"
+                                                                 Text="I am thrilled to tell you after nearly 6 months of development that I have finally completed the biggest update yet. Firstly, I would like to thank all supporters who bought the game. You kept me motivated and every single buy gave me a huge smile on my face. Now, I would like to tell you about all changes in this massive update:"
+                                                                 SecondText="There is a quite a list. The hardest thing for me was to make everything uniform and super polish. also there were some complications like a broken arm during summer, but it did not top me from doing what I really like!"
+                                                                 SecondImage="brokenArm.png"
+                                                                 ThirdText="Anyways, please enjoy the game and see you in the next update! And thank you once again for all the support!"
+                                                                 ThirdImage="thankYou.png"
+                                                                 x:Name="update40Done"/>
+
+                <pages_and_descriptions:DevelopmentInfoThumbnail TitleText="New aplications" MainImage="newAplications.png" InvertedColors="True"
+                                                                 Text="Right now, there are not many developers for tizen smart watch platform, so I am taking the role and I am planning to create more apps for it. Now, I have 2 app ideas in my head that have a real potential to soon become a reality. First idea is to create a simple and fast notes taking app called Lite notes."
+                                                                 FirstImage="litenotesFeatures.png"
+                                                                 SecondText="I want to create original and meaningfull applications. I have not found anything like Lite notes available (at least not for free). And I feel that something this simple like this should definitelly be for free. Second idea is a very ambitious one. It is a brand new game called Project Card fighter and it will be a large live-service game."
+                                                                 SecondImage="projectCardFighterFeatures.png"
+                                                                 ThirdText="It will take some time till the first prototype is ready. Of course if you had any idea about an aplication that you would like to see on tizen watch platform, just send me an email to rostislavlitovkin@gmail.com and I will try to make that happen!"/>
+                <pages_and_descriptions:DevelopmentInfoThumbnail TitleText="new applications" MainImage="powerupsDevelopmentThumbnail.png" 
+                                                                 Text="I would like to announce that one of the big features coming in update 4.0 are powerups. Currently there are 3 powerups for you to test if you allow an experimental mode. I have 2 reasons to include these powerups into the game. One reason is to further raise the complexity of the game while also giving the user more choices to affect the flow. The second reason is to give the game a progression system - I felt that after two or three enjoyful games, there is not really a reason to replay the game, so I am changing that. By introducing a binary event, I was able to create new gameplay loop."
+                                                                 FirstImage="binaryGameLoop.png"
+                                                                 SecondText="As of right now, powerups are not fully completed, they need more polish. (both in looks, animations, usability, explanation of them, etc.) You can try them right now, just click a button bellow to turn on experimental mode."
+                                                                 />
+
+                <pages_and_descriptions:DevelopmentInfoThumbnail TitleText="New side-project" MainImage="paralelniPolisThumbnail1.png"
+                                                                 Text="I have also been working on a new project - watchface. I got a challenge from my friends from Paralelní polis to design a special watchface for galaxy smartwatches. So I designed it the way the guy wanted to and now, it is in an approval process. Hopefully if everything goes right, you will be able to download it totally for free. Here are some other fotos. I hope you are looking forward to it."
+                                                                 FirstImage="paralelniPolisThumbnail2.png"
+                                                                 SecondImage="paralelniPolisThumbnail3.png"/>
+
+                
+                <Label Text=" "/>
+                <Label Text=" "/>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

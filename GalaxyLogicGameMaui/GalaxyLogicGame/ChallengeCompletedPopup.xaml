@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.ChallengeCompletedPopup"
+                AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                x:Name="mainLayout"
+                Opacity="0">
+    <Image Source="shadowedBackground.png"
+           x:Name="watchShadow" IsVisible="true"/>
+    <BoxView AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="#66000000"
+             x:Name="mobileShadow" IsVisible="false"/>
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+        <Label Text=".." AbsoluteLayout.LayoutBounds="0.5, 0.25, 320, AutoSize"  AbsoluteLayout.LayoutFlags="PositionProportional"
+           HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+           x:Name="title"
+           FontAttributes="Bold"
+           TextColor="White"
+           FontFamily="SamsungOne"
+           FontSize="{OnPlatform Android=24, UWP=24}"/>
+        <Image Source="challengeCompleted.png" TranslationX="200"
+           x:Name="completedSticker"/>
+    </AbsoluteLayout>
+    
+
+</AbsoluteLayout>

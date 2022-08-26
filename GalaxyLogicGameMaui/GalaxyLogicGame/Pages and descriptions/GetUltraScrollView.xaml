@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.GetUltraScrollView"
+            AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional"
+            BackgroundColor="#88000000" Opacity="0">
+
+    <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 360, 360">
+        <AbsoluteLayout>
+            <Button AbsoluteLayout.LayoutBounds="0.5, 0, 320, 600" AbsoluteLayout.LayoutFlags="XProportional"/>
+            <Label Text="haha" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        </AbsoluteLayout>
+    </ScrollView>    
+    <AbsoluteLayout.GestureRecognizers>
+        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+    </AbsoluteLayout.GestureRecognizers>
+</AbsoluteLayout>

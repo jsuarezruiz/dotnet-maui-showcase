@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<planet_objects:PlanetBase  xmlns:planet_objects="clr-namespace:GalaxyLogicGame.Planet_objects"
+                            xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Planet_objects.Supernova"
+             AbsoluteLayout.LayoutBounds="0.5, 0.5, 120, 120"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                x:Name="mainLayout">
+
+
+    <AbsoluteLayout x:Name="starBG"
+           AbsoluteLayout.LayoutBounds=".5, .5, 80, 80"
+           AbsoluteLayout.LayoutFlags="PositionProportional">
+
+        <Image x:Name="starRing"
+               Opacity="0.5"
+           Source="star.png"
+               Scale="1.15"
+           AbsoluteLayout.LayoutBounds="0.5, 0.5, 60, 60"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image Source="supernovaflashy.png" x:Name="starBase"
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, 120, 120"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, AutoSize, AutoSize"
+                    AbsoluteLayout.LayoutFlags="PositionProportional">
+        <Label x:Name="labelShadow"
+               TextColor="#222222" TranslationX="2" TranslationY="2"
+               FontSize="40"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontFamily="SamsungOne" IsVisible="false"/>
+        <Label x:Name="label"
+               TextColor="Red"
+               FontSize="40"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontFamily="SamsungOne"/>
+    </AbsoluteLayout>
+    <planet_objects:BinaryIndicator x:Name="binary" IsVisible="false"/>
+</planet_objects:PlanetBase>

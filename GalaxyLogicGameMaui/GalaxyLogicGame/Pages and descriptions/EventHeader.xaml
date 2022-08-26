@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.EventHeader" 
+                AbsoluteLayout.LayoutBounds="0, 0, 360, 140"
+                WidthRequest="360" HeightRequest="140">
+    <Image x:Name="icon" AbsoluteLayout.LayoutBounds="0.5, 20, 60, 60" AbsoluteLayout.LayoutFlags="XProportional"/>
+    
+    <Label AbsoluteLayout.LayoutBounds="0.5, 70, 260, AutoSize" AbsoluteLayout.LayoutFlags="XProportional" FontAttributes="Bold" TextColor="White" FontSize="40"
+           HorizontalTextAlignment="Center"
+           x:Name="title"/>
+
+
+    <Label AbsoluteLayout.LayoutBounds="0, 100, 360, AutoSize" FontFamily="BigNoodleTitling" FontAttributes="Bold" TextColor="White" FontSize="40" HorizontalTextAlignment="Start"
+           Text="  &lt;"/>
+
+</AbsoluteLayout>

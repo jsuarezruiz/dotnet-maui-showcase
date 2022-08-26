@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.KeyPhrasePage"
+             xmlns:pages_and_descriptions="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+             Title="KeyPhrasePage" BackgroundColor="Black">
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+        <AbsoluteLayout x:Name="scaleLayout"  AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Image x:Name="wallpaper" Source="wallpaper1.png" AbsoluteLayout.LayoutBounds="0.5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill" TranslationY="180" Opacity="0"/>
+
+            <AbsoluteLayout x:Name="starsLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional">
+
+            </AbsoluteLayout>
+            <ScrollView x:Name="scroll" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" HorizontalScrollBarVisibility="Never" Orientation="Vertical">
+                <AbsoluteLayout x:Name="mainLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize"  TranslationY="180" Opacity="0">
+                    <StackLayout x:Name="stackLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize">
+                        <pages_and_descriptions:Header TitleText="Secret key phrase" SmallTitleText=""/>
+
+                        
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" Text=".." x:Name="keyPhraseLabel"/>
+
+                        <!--<Editor HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="320" HeightRequest="100" x:Name="wordPhraseEditor"
+                                    Placeholder="Word phrase (mnemonics)" TextColor="White" BackgroundColor="#222"/>-->
+
+                        <BoxView HeightRequest="120"/>
+                    </StackLayout>
+                </AbsoluteLayout>
+            </ScrollView>
+        </AbsoluteLayout>
+    </AbsoluteLayout>
+</ContentPage>

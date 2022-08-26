@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:pages_and_descriptions="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.CreditsPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+
+        <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <AbsoluteLayout x:Name="scaleLayout"  AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Image x:Name="wallpaper" Source="wallpaper1.png" AbsoluteLayout.LayoutBounds="0.5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill" TranslationY="180" Opacity="0"/>
+
+                <AbsoluteLayout x:Name="starsLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional">
+
+                </AbsoluteLayout>
+                <ScrollView x:Name="scroll" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" HorizontalScrollBarVisibility="Never" Orientation="Vertical">
+
+                    <AbsoluteLayout x:Name="mainLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize"  TranslationY="180" Opacity="0">
+                        <StackLayout Spacing="10" x:Name="stackLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize">
+                            
+                            <pages_and_descriptions:Header TitleText="Credits"/>
+
+
+                            <Frame CornerRadius="30" 
+                                   Padding="0"  BackgroundColor="#222"
+                                   IsClippedToBounds="True">
+                                <StackLayout Spacing="0" WidthRequest="360">
+                                    <Frame CornerRadius="30" 
+                                            Padding="0"
+                                            IsClippedToBounds="True">
+                                        <Image WidthRequest="360" Aspect="AspectFill" HeightRequest="240" 
+                                                Source="Rostik.png"/>
+                                    </Frame>
+                                    <BoxView HeightRequest="5"/>
+                                    <Label Text="Rostislav Litovkin" WidthRequest="320" FontSize="40" FontAttributes="Bold" FontFamily="BigNoodleTitling" TextColor="White" 
+                                           HorizontalTextAlignment="Start" HorizontalOptions="Center"/>
+
+                                    <!--<Label Text="- The one and only developer of this game" Style="{StaticResource Key=pointLabel}"/>-->
+                                    <Label Text="- 17 year old student at Gymnázium Jaroslava Heyrovského" Style="{StaticResource Key=pointLabel}" x:Name="ageLabel"/>
+                                    <Label Text="- Loves programming new stuff" Style="{StaticResource Key=pointLabel}"/>
+                                    <Label Text="- Active Go player" Style="{StaticResource Key=pointLabel}"/>
+                                    <Label Text="- Interested in crypto" Style="{StaticResource Key=pointLabel}"/>
+                                    <Label Text="- Contact me:" Style="{StaticResource Key=pointLabel}"/>
+                                    <Label Text="rostislavlitovkin@gmail.com" Style="{StaticResource Key=pointLabel}" FontAttributes="Bold"/>
+                                    <BoxView HeightRequest="15"/>
+                                </StackLayout>
+                            </Frame>
+
+
+
+                            <Frame CornerRadius="30" 
+                                   Padding="0" BackgroundColor="#222"
+                                   IsClippedToBounds="True">
+                                <StackLayout Spacing="0" WidthRequest="360" >
+                                    <BoxView HeightRequest="15"/>
+                                    <Label Text="Sources:" WidthRequest="320" FontSize="40" FontAttributes="Bold" FontFamily="BigNoodleTitling" TextColor="White" 
+                                        HorizontalTextAlignment="Start" HorizontalOptions="Center"/>
+
+                                    <Label Text="- Inspired by Atomas" Style="{StaticResource Key=pointLabel}" FontAttributes="Bold"/>
+                                    <Label Text="- https://www.futurify.cz/" Style="{StaticResource Key=pointLabel}" />
+                                    <BoxView HeightRequest="15"/>
+                                    
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame CornerRadius="30" 
+                                   Padding="0" BackgroundColor="#222"
+                                   IsClippedToBounds="True">
+                                <StackLayout Spacing="0" WidthRequest="360" >
+                                    <BoxView HeightRequest="15"/>
+                                    <Label Text="Help with GameJam:" WidthRequest="320" FontSize="40" FontAttributes="Bold" FontFamily="BigNoodleTitling" TextColor="White" 
+                                        HorizontalTextAlignment="Start" HorizontalOptions="Center"/>
+                                    <BoxView HeightRequest="5"/>
+                                    <AbsoluteLayout WidthRequest="360" HeightRequest="90">
+                                        <Frame CornerRadius="30" 
+                                            Padding="0" BackgroundColor="#222"
+                                            IsClippedToBounds="True" AbsoluteLayout.LayoutBounds="10, 0.5, 90, 90" AbsoluteLayout.LayoutFlags="YProportional">
+                                            <Image WidthRequest="90" Aspect="AspectFill" HeightRequest="90" 
+                                                Source="dan.png"/>
+                                        </Frame>
+                                        <StackLayout AbsoluteLayout.LayoutBounds="110, 0, 250, 90" Spacing="0">
+                                            <Label Text="Daniel Vrátný" WidthRequest="240" FontSize="30" FontAttributes="Bold" FontFamily="BigNoodleTitling" TextColor="White" 
+                                                   HorizontalTextAlignment="Start" HorizontalOptions="Center"/>
+                                            <Label Text="- graphic designer" Style="{StaticResource Key=pointLabel}" WidthRequest="240"/>
+                                            <Label Text="- dvratny04@gmail.com" Style="{StaticResource Key=pointLabel}" WidthRequest="240"/>
+                                        </StackLayout>
+                                    </AbsoluteLayout>
+
+                                    <BoxView HeightRequest="15"/>
+
+                                    <AbsoluteLayout WidthRequest="360">
+                                        <Frame CornerRadius="30" 
+                                            Padding="0" BackgroundColor="#222"
+                                            IsClippedToBounds="True" AbsoluteLayout.LayoutBounds="10, 0.5, 90, 90" AbsoluteLayout.LayoutFlags="YProportional">
+                                            <Image WidthRequest="90" Aspect="AspectFill" HeightRequest="90" 
+                                                Source="robin.png"/>
+                                        </Frame>
+                                        <StackLayout AbsoluteLayout.LayoutBounds="110, 0, 250, AutoSize" Spacing="0">
+                                            <Label Text="Robin Popov" FontSize="30" FontAttributes="Bold" FontFamily="BigNoodleTitling" TextColor="White" 
+                                                   HorizontalTextAlignment="Start" HorizontalOptions="Center" WidthRequest="240"/>
+                                            <Label Text="- programmer" Style="{StaticResource Key=pointLabel}" WidthRequest="240"/>
+                                            <Label Text="- robin.popov@seznam.cz" Style="{StaticResource Key=pointLabel}" WidthRequest="240"/>
+                                        </StackLayout>
+                                    </AbsoluteLayout>
+
+                                    <BoxView HeightRequest="15"/>
+
+                                </StackLayout>
+                            </Frame>
+                            
+                            <Frame CornerRadius="30" 
+                                   Padding="0" BackgroundColor="#222"
+                                   IsClippedToBounds="True">
+                                <StackLayout Spacing="0" WidthRequest="360" >
+                                    <BoxView HeightRequest="15"/>
+                                    <Label Text="Official website:" WidthRequest="320" FontSize="40" FontAttributes="Bold" FontFamily="BigNoodleTitling" TextColor="White" 
+                                        HorizontalTextAlignment="Start" HorizontalOptions="Center"/>
+
+                                    <pages_and_descriptions:LinkLabel Text="http://rostislavlitovkin.pythonanywhere.com/" FontSize="15" />
+                                    <BoxView HeightRequest="15"/>
+
+                                </StackLayout>
+                            </Frame>
+
+                            <BoxView HeightRequest="100"/>
+
+                        </StackLayout>
+                    </AbsoluteLayout>
+
+                </ScrollView>
+            </AbsoluteLayout>
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+</ContentPage>

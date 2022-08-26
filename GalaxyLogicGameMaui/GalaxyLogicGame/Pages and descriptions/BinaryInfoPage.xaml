@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:pages_and_descriptions="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.BinaryInfoPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <AbsoluteLayout x:Name="scaleLayout"  AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+
+                <ScrollView x:Name="scroll" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" HorizontalScrollBarVisibility="Never" Orientation="Vertical">
+                    <AbsoluteLayout x:Name="mainLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize" >
+
+                        <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize">
+                            <pages_and_descriptions:EventHeader TitleText="Binary" TitleColor="DarkGreen" Icon="binary.png"/>
+                            <BoxView HeightRequest="10"/>
+
+                <!--<Label Text="Binary event" TextColor="DarkGreen" FontSize="24" FontFamily="SamsungOne" FontAttributes="Bold" HorizontalTextAlignment="Center"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="CenterAndExpand" />-->
+                            <Label Text="Binary is a special challenging event. You will get a random formation of ones and zeros and your goal is to replicate that formation in your own galaxy. Each planet has it's own binary indicator. If you do not replicate the formation in 3 moves, you will be punished by getting debris in your way." 
+                       TextColor="White" FontSize="20"
+                       WidthRequest="320"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="CenterAndExpand" />
+                            <BoxView HeightRequest="10"/>
+                            <Image HorizontalOptions="CenterAndExpand"  VerticalOptions="Start" Source="SuccessfulFormation.png"/>
+                            <BoxView HeightRequest="10"/>
+                            <Label Text="This event was removed due to disrupting the flow of gameplay and due to not being fun. You can still play with this event in Custom mode." 
+                           TextColor="White" FontSize="20"
+                           WidthRequest="320"
+                        VerticalOptions="Start" 
+                        HorizontalOptions="CenterAndExpand" />
+                            <BoxView HeightRequest="120"/>
+
+                        </StackLayout>
+                    </AbsoluteLayout>
+                </ScrollView>
+            </AbsoluteLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

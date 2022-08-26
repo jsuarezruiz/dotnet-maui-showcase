@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.Header" 
+                AbsoluteLayout.LayoutBounds="0, 0, 360, 140"
+                WidthRequest="360" HeightRequest="140">
+    <Label AbsoluteLayout.LayoutBounds="0.5, 0.5, 260, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" FontFamily="BigNoodleTitling" FontAttributes="Bold" TextColor="White" FontSize="40"
+           HorizontalTextAlignment="Center"
+           x:Name="title"/>
+
+    <Label AbsoluteLayout.LayoutBounds="0.5, 0.90, 260, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" FontFamily="BigNoodleTitling" FontAttributes="Bold" TextColor="#bbb" FontSize="20"
+           HorizontalTextAlignment="Center" IsVisible="false"
+           x:Name="smallTitle"/>
+
+    <Label AbsoluteLayout.LayoutBounds="0, 100, 360, AutoSize" FontFamily="BigNoodleTitling" FontAttributes="Bold" TextColor="White" FontSize="40" HorizontalTextAlignment="Start"
+           Text="  &lt;" x:Name="backButton"/>
+
+</AbsoluteLayout>

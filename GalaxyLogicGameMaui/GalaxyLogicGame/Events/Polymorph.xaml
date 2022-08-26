@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Events.Polymorph"
+                AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                x:Name="mainLayout">
+    <AbsoluteLayout x:Name="darken" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                   BackgroundColor="#66000000"
+                   Opacity="0"/>
+    <AbsoluteLayout x:Name="choiceLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                   BackgroundColor="#33000000"
+                   Opacity="0">
+        <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="Copy a planet" TextColor="White" FontAttributes="Bold" FontSize="20"
+               AbsoluteLayout.LayoutBounds="0.5, 0.25, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        </AbsoluteLayout>
+        
+
+    </AbsoluteLayout>
+
+    <Image x:Name="eventIcon" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" Opacity="0" TranslationY="-60"
+           Source="polymorph.png"/>
+    <Label x:Name="eventTitle" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" Opacity="0"
+           Text="Polymorph" TextColor="Purple" FontAttributes="Bold"
+           FontSize="{OnPlatform Android=24, UWP=24}"/>
+    
+</AbsoluteLayout>

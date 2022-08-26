@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.PowerupDescriptionPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <AbsoluteLayout x:Name="scaleLayout"  AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+                <ScrollView x:Name="scroll" Scrolled="OnScrolled" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" HorizontalScrollBarVisibility="Never" Orientation="Vertical">
+                    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize" >
+
+                        <StackLayout x:Name="mainStackLayout" Spacing="0">
+
+                            <AbsoluteLayout x:Name="mainLayout" BackgroundColor="Black" WidthRequest="360" AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" HorizontalOptions="Center">
+                                <AbsoluteLayout x:Name="topLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, 240">
+                                    <Image x:Name="titleImage" AbsoluteLayout.LayoutBounds="0, 0, 360, 240" Aspect="AspectFill"/>
+                                    <Label Text="&lt;" AbsoluteLayout.LayoutBounds="0, 160, AutoSize, 40" FontSize="40" FontAttributes="Bold" FontFamily="BigNoodleTitling" TextColor="White" 
+                           HorizontalTextAlignment="Start" x:Name="back"/>
+                                    <Label x:Name="title" AbsoluteLayout.LayoutBounds="0, 200, 400, 40" FontSize="40" FontAttributes="Bold" FontFamily="BigNoodleTitling" TextColor="White" 
+                           HorizontalTextAlignment="Start"/>
+                                </AbsoluteLayout>
+                                <StackLayout x:Name="stackLayout" AbsoluteLayout.LayoutBounds="0, 260, 360, AutoSize">
+                                    <Label x:Name="text1" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="320" FontSize="{OnPlatform Tizen=20, Android=24, UWP=24}" HorizontalTextAlignment="Center" IsVisible="false"/>
+                                    <AbsoluteLayout x:Name="firstAbsoluteLayout" IsVisible="false"/>
+                                    <Image x:Name="firstImage" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="360" Aspect="AspectFit" IsVisible="false"/>
+
+                                    <Label x:Name="text2" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="320" FontSize="{OnPlatform Tizen=20, Android=24, UWP=24}" HorizontalTextAlignment="Center" IsVisible="false"/>
+                                    <Image x:Name="secondImage" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="360" Aspect="AspectFit" IsVisible="false"/>
+                                    <Label x:Name="text3" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="320" FontSize="{OnPlatform Tizen=20, Android=24, UWP=24}" HorizontalTextAlignment="Center" IsVisible="false"/>
+
+                                    <Image x:Name="thirdImage" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="360" Aspect="AspectFit" IsVisible="false"/>
+                                    <Image x:Name="fourthImage" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="360" Aspect="AspectFit" IsVisible="false"/>
+                                    <BoxView HeightRequest="120" x:Name="footer"/>
+                                </StackLayout>
+                            </AbsoluteLayout>
+                        </StackLayout>
+                    </AbsoluteLayout>
+                </ScrollView>
+            </AbsoluteLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

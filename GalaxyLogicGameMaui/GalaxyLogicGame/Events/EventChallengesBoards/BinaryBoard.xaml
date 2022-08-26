@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Events.EventChallengesBoards.BinaryBoard"
+                AbsoluteLayout.LayoutBounds="0.5, 0.23, 260, 90" AbsoluteLayout.LayoutFlags="PositionProportional" TranslationY="{OnPlatform Android=420, UWP=420}"
+                Opacity="0">
+    <Image Source="BoardBackground.png"/>
+    <Label x:Name="title" Text="Binary" FontSize="20" FontAttributes="Bold" FontFamily="SamsungOne" TextColor="DarkGreen" HorizontalTextAlignment="Center"
+           AbsoluteLayout.LayoutBounds="0.5, 7, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="XProportional"/>
+        
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 30, 260, 55"
+                    x:Name="binaryLayout">
+        
+    </AbsoluteLayout>
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 30, 260, 55"
+                    x:Name="textLayout" Opacity="0">
+        <Label x:Name="leftLabel" FontSize="40" FontAttributes="Bold" FontFamily="BigNoodleTitling" TextColor="DarkRed" HorizontalTextAlignment="Center"
+           AbsoluteLayout.LayoutBounds="0.5, 0.5, 320, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional"
+               Text ="3 moves left"/>
+    </AbsoluteLayout>
+</AbsoluteLayout>

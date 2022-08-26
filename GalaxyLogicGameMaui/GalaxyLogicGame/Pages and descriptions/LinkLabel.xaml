@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.LinkLabel"
+             WidthRequest="320" Orientation="Horizontal">
+    <Label x:Name="label" FontSize="20" HorizontalTextAlignment="Start" TextColor="White"/>
+    <BoxView WidthRequest="10"/>
+    <Image Source="externallink.png" HeightRequest="20" WidthRequest="20" VerticalOptions="Center" x:Name="externalLinkImage"/>
+    <StackLayout.GestureRecognizers>
+        <TapGestureRecognizer Tapped="OnClicked" />
+    </StackLayout.GestureRecognizers>
+</StackLayout>

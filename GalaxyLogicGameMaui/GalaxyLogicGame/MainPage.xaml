@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Mobile.MainPage"
+             xmlns:wallet="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+              BackgroundColor="Black">
+    <ContentPage.Content>
+        <AbsoluteLayout x:Name="scaleLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional" x:Name="mainLayout">
+                <Image x:Name="wallpaper" Source="wallpaper1.png" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"/>
+
+                <AbsoluteLayout x:Name="starsLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional">
+                    
+                </AbsoluteLayout>
+
+                <AbsoluteLayout x:Name="buttonLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 0.8" AbsoluteLayout.LayoutFlags="All" >
+                    <Image IsVisible="false" x:Name="astronaut" Source="astronaut.png" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional"  TranslationX="210" TranslationY="60"/>
+
+                    
+                     <wallet:WalletPreview x:Name="wallet">
+                                <wallet:WalletPreview.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnConnectCryptoClicked"/>
+                        </wallet:WalletPreview.GestureRecognizers>
+                     </wallet:WalletPreview>
+                    
+                    <Label x:Name="highscoreLabel" AbsoluteLayout.LayoutBounds=".5, .3, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" FontFamily="BigNoodleTitling"
+                           Text=".." FontSize="20" TextColor="#dddddd"/>
+
+                    <Label AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional"
+                            Text="Play" FontSize="70"  FontFamily="bignoodletitling" TextColor="White" FontAttributes="Bold" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnPlayClicked"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                    <Label x:Name="showMoreButton"
+                           AbsoluteLayout.LayoutBounds="0.5, 0.95, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional"
+                           Text="Show more" FontFamily="bignoodletitling" FontSize="20" TextColor="#dddddd">
+                    </Label>
+                    <BoxView AbsoluteLayout.LayoutBounds="0.5, 1, 1, 0.25" AbsoluteLayout.LayoutFlags="All"
+                             Opacity="0" CornerRadius="30">
+                        <BoxView.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnShowMoreClicked"/>
+                        </BoxView.GestureRecognizers>
+                    </BoxView>
+                    <!--<Button AbsoluteLayout.LayoutBounds="0.5, .75, 60, 60" AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="DarkBlue"
+                            Clicked="OnConnectCryptoClicked"/>-->
+                </AbsoluteLayout>
+
+                
+            </AbsoluteLayout>
+
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="#88000000"
+                                x:Name="tutorialLayout" IsVisible="false" >
+                <Image AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" Source="mainAstronaut.png" Aspect="AspectFit" Scale="{OnPlatform UWP=0.7}"/>
+                <StackLayout AbsoluteLayout.LayoutBounds="0.8, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional"
+                             x:Name="tutorialButtonsLayout" Scale="{OnPlatform UWP=0.7}">
+                    <Label Text="For the first time?" FontSize="30"  FontFamily="BigNoodleTitling" TextColor="White"/>
+                    <Label Text="View tutorial" FontSize="50"  FontFamily="bignoodletitling" TextColor="#45ffed" FontAttributes="Bold" x:Name="tutorialButton">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnViewTutorialClicked"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Label Text="Skip" FontSize="30"  FontFamily="bignoodletitling" TextColor="#ddd" FontAttributes="Bold" x:Name="skipButton" HorizontalOptions="End">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSkipTutorialClicked"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+               
+            </AbsoluteLayout>
+
+            <AbsoluteLayout x:Name="transitionLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" IsVisible="false"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

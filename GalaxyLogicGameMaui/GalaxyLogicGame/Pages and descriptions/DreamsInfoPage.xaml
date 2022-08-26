@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:pages_and_descriptions="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.DreamsInfoPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <AbsoluteLayout x:Name="scaleLayout"  AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+                <ScrollView x:Name="scroll" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" HorizontalScrollBarVisibility="Never" Orientation="Vertical">
+
+                    <AbsoluteLayout x:Name="mainLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize" >
+
+                        <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize">
+
+                            <pages_and_descriptions:EventHeader TitleText="Dreams" TitleColor="#ff99b8" Icon="dreams.png"/>
+                            <BoxView HeightRequest="10"/>
+
+                            <Label Text="Dreams event is one of the best events you can get alongside shooting star and polymorph. While you are dreaming, some of your planets will receive a special dream number (a number inside a pink cloud). Dream numbers have a special ability to raise the value of a planet up to that dream number. So a planet with value 15 and a dream number of 2 can act like a 15, 16, and 17, all at once!"
+                       TextColor="White" FontSize="20"
+                       WidthRequest="320"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="CenterAndExpand" />
+                            <BoxView HeightRequest="10"/>
+
+                            <Image HorizontalOptions="CenterAndExpand"  VerticalOptions="Start" Source="dreamsExplained.png"/>
+                            <BoxView HeightRequest="120"/>
+                        </StackLayout>
+                    </AbsoluteLayout>
+                </ScrollView>
+            </AbsoluteLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

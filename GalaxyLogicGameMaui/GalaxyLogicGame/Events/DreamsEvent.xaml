@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Events.DreamsEvent"
+        AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+    <AbsoluteLayout x:Name="darken" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                    BackgroundColor="#66000000" Opacity="0"/>
+    <Image x:Name="eventIcon" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" Opacity="0" TranslationY="-60"
+           Source="dreams.png"/>
+    <Label x:Name="eventTitle" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" Opacity="0"
+           Text="Dreams" TextColor="#ff99b8" FontAttributes="Bold" FontSize="{OnPlatform Android=24, UWP=24}"/>
+</AbsoluteLayout>

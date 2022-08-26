@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Planet_objects.BinaryIndicator"
+                Scale="0.5" TranslationX="15" TranslationY="15"
+                AbsoluteLayout.LayoutBounds="0.5, 0.5, 60, 60" AbsoluteLayout.LayoutFlags="PositionProportional">
+    <Button BackgroundColor="Gray" AbsoluteLayout.LayoutBounds="0.5, 0.5, 60, 60" AbsoluteLayout.LayoutFlags="PositionProportional" CornerRadius="30"/>
+    <Label x:Name="label" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+           TextColor="Black"
+               FontSize="40"
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, 60, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional"
+               FontFamily="SamsungOne"/>
+</AbsoluteLayout>

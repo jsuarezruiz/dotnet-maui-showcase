@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.CryptoConnectPage"
+             xmlns:pages_and_descriptions="clr-namespace:GalaxyLogicGame.Pages_and_descriptions"
+             Title="CryptoConnectPage">
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+        <AbsoluteLayout x:Name="scaleLayout"  AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Image x:Name="wallpaper" Source="wallpaper1.png" AbsoluteLayout.LayoutBounds="0.5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill" TranslationY="180" Opacity="0"/>
+
+            <AbsoluteLayout x:Name="starsLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional">
+
+            </AbsoluteLayout>
+            <ScrollView x:Name="scroll" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" HorizontalScrollBarVisibility="Never" Orientation="Vertical">
+                <AbsoluteLayout x:Name="mainLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize"  TranslationY="180" Opacity="0">
+                    <StackLayout x:Name="stackLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, AutoSize">
+                        <pages_and_descriptions:Header TitleText="Connect NFTs" SmallTitleText="using: https://goerli.optimism.io"/>
+
+                        <!--<Button HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="DarkBlue" Text="Connect to Ethereum" Clicked="OnEthereumButtonClicked" />
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" Text="Connect to Ethereum" x:Name="adressLabel"/>
+                        <Editor HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="320" HeightRequest="100" x:Name="wordPhraseEditor"
+                                    Placeholder="Word phrase (mnemonics)" TextColor="White" BackgroundColor="#222"/>-->
+                        <BoxView HeightRequest="10"/>
+
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" MinimumHeightRequest = "195"
+                                     x:Name="mainStackLayout">
+
+                        </StackLayout>
+
+                        <BoxView HeightRequest="120"/>
+
+                        <!--
+                        <Button HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="DarkBlue" Text="Connect to Wallet" TextColor="White" Clicked="OnWalletButtonClicked" />
+                        -->
+
+                        <!--<Label HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" Text="Connect your wallet" x:Name="linkLabel" FontSize="20"/>
+
+                        <Button HorizontalOptions="Center" VerticalOptions="Center" Text="Mint NFT" BackgroundColor="Green" HeightRequest="60" CornerRadius="30" FontFamily="BigNoodleTitling" Clicked="SingTransaction" 
+                                x:Name="singTransactionButton"  IsVisible="false"/>
+                        <BoxView HeightRequest="60" />
+                        <Button HorizontalOptions="Center" VerticalOptions="Center" Text="Log out" BackgroundColor="DarkRed" CornerRadius="30" FontFamily="BigNoodleTitling" Clicked="OnLogOutClicked" 
+                                x:Name="logOutButton" HeightRequest="60"/>
+                        -->
+                    </StackLayout>
+                </AbsoluteLayout>
+            </ScrollView>
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1"  AbsoluteLayout.LayoutFlags="All" x:Name="qrCodeLayout" BackgroundColor="#88000000" IsVisible="false" Opacity="0">
+                <Image AbsoluteLayout.LayoutBounds="0.5, 0.5, 270, 270"  AbsoluteLayout.LayoutFlags="PositionProportional" Source="contract.png"/>
+
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnQRCodeLayoutClicked"/>
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout> 
+        </AbsoluteLayout>
+    </AbsoluteLayout>
+</ContentPage>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Mobile.LongMainPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <AbsoluteLayout x:Name="scaleLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, 360, 360" AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Image x:Name="wallpaper" Source="wallpaper3.png" AbsoluteLayout.LayoutBounds="0.5, .5, 1, 1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill" TranslationY="180" Opacity="0"/>
+
+                <AbsoluteLayout x:Name="starsLayout" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+                    <BoxView/>
+                </AbsoluteLayout>
+
+                <ScrollView Orientation="Vertical" x:Name="scroll" Scrolled="OnScrolled" HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" 
+                    AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All" >
+                    <AbsoluteLayout x:Name="mainLayout" AbsoluteLayout.LayoutBounds="0, 0, AutoSize, AutoSize">
+
+                        <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 360, autoSize" x:Name="buttonsLayout">
+                            
+                            <BoxView HeightRequest="30"/>
+                            <Label x:Name="playButton" 
+                                   HorizontalOptions="Center"
+                                   Text="Play"
+                                   Style="{StaticResource Key=mainPageLabel}"
+                                   TextColor="#45ffed" FontAttributes="Bold"
+                                   FontSize="50">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnPlayEventfulClicked"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Image HeightRequest="60" WidthRequest="200" Source="playgamejam.png" x:Name="playGameJam">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnPlayGameJamClicked" />
+
+                                </Image.GestureRecognizers>
+                                
+                            </Image>
+                            
+                            <!--
+                            <Label x:Name="playCustom"
+                            Text="Custom Mode"
+                           Style="{StaticResource Key=mainPageLabel}">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnCustomModeClicked"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            -->
+                            <Label x:Name="challengesButton" 
+                           Text="Challenges"
+                        Style="{StaticResource Key=mainPageLabel}">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnChallengesClicked"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <BoxView HeightRequest="5"/>
+                            <Label x:Name="aboutEventsButton" 
+                            Text="Events description"
+                           Style="{StaticResource Key=mainPageLabel}"
+                           >
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnAboutEventfulClicked"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <BoxView HeightRequest="5"/>
+                            <Label x:Name="objectsDescriptionButton" 
+                           Text="Objects description"
+                        Style="{StaticResource Key=mainPageLabel}"
+                           >
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnObjectsInfoClicked"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <BoxView HeightRequest="5"/>
+                            <!--
+                            <Label x:Name="aboutDevelopmentButton"
+                           TextColor="#2fd2c1"
+                           Style="{StaticResource Key=mainPageLabel}"
+                           Text="About development">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnAboutDevelopmentClicked"/>
+                                </Label.GestureRecognizers>
+                            </Label>-->
+                            <Label x:Name="tutorialButton"   
+                        Style="{StaticResource Key=mainPageLabel}"
+                            Text="How to play?">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnTutorialClicked"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <BoxView HeightRequest="5"/>
+                            <Label x:Name="creditsButton"   
+                        Style="{StaticResource Key=mainPageLabel}"
+                            Text="Credits">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnCreditsClicked"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+
+                            <BoxView HeightRequest="30"/>
+
+
+
+                            <!-- <Button Text="Journey mode" Clicked="OnJourneyModeClicked" BackgroundColor="Gray" AbsoluteLayout.LayoutBounds="0.5, 255, AutoSize, 60" AbsoluteLayout.LayoutFlags="XProportional"/> -->
+                        </StackLayout>
+                        <AbsoluteLayout x:Name="transitionLayout" AbsoluteLayout.LayoutBounds="0, 0, 360, 360" IsVisible="false">
+
+                        </AbsoluteLayout>
+                    </AbsoluteLayout>
+                </ScrollView>
+            </AbsoluteLayout>
+        </AbsoluteLayout> 
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<planet_objects:PlanetBase  xmlns:planet_objects="clr-namespace:GalaxyLogicGame.Planet_objects"
+                            xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Planet_objects.Planet"
+             AbsoluteLayout.LayoutBounds="0.5, 0.5, 120, 60"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                x:Name="mainLayout">
+
+    
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds=".5, .5, AutoSize, AutoSize"
+                    AbsoluteLayout.LayoutFlags="PositionProportional">
+        <Label x:Name="label"
+           
+               FontSize="40"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontFamily="SamsungOne"/>
+    </AbsoluteLayout>
+    
+    <planet_objects:BinaryIndicator x:Name="binary" IsVisible="false"/>
+    
+    <AbsoluteLayout x:Name="dreamNumberLayout"
+        Scale="0.5" TranslationX="15" TranslationY="15"
+                AbsoluteLayout.LayoutBounds="0.5, 0.5, 60, 60" AbsoluteLayout.LayoutFlags="PositionProportional" IsVisible="false">
+        <Image AbsoluteLayout.LayoutBounds="0.5, 0.5, 60, 60" AbsoluteLayout.LayoutFlags="PositionProportional" Source="dreamNumberCloud.png"/>
+        <Label x:Name="dreamNumberLabel" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+           TextColor="Black"
+               FontSize="40"
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, 60, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional"
+               FontFamily="SamsungOne"/>
+    </AbsoluteLayout>
+</planet_objects:PlanetBase>

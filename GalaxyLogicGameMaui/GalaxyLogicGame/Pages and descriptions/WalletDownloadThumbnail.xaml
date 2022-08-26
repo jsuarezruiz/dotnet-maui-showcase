@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.WalletDownloadThumbnail"
+                WidthRequest="320" HeightRequest="85"
+                HorizontalOptions="Center">
+    <Button AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"
+        BackgroundColor="#2f2f2f" CornerRadius="30" IsEnabled="False"/>
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 0, 85, 85">
+        <Image x:Name="icon"
+           Aspect="AspectFit"
+           AbsoluteLayout.LayoutBounds=".5, .5, 60, 60" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="85, 0, 170, 85">
+
+        <Label x:Name="title" FontSize="20" FontAttributes="Bold" FontFamily="SamsungOne" TextColor="White" VerticalOptions="CenterAndExpand"
+               AbsoluteLayout.LayoutBounds="5, 5, 160, AutoSize"/>
+        <Label x:Name="description" FontSize="12" FontAttributes="None" FontFamily="SamsungOne" TextColor="White" VerticalOptions="CenterAndExpand"
+               AbsoluteLayout.LayoutBounds="5, 30, 160, AutoSize"/>
+    </AbsoluteLayout>
+
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="255, 0, 65, 85">
+        <Image Source="externallink.png"
+           Aspect="AspectFit"
+           AbsoluteLayout.LayoutBounds=".5, .5, 30, 30" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+    <BoxView AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="SizeProportional" Opacity="0">
+        <BoxView.GestureRecognizers>
+            <TapGestureRecognizer Tapped="OnClicked" />
+        </BoxView.GestureRecognizers>
+    </BoxView>
+
+</AbsoluteLayout>

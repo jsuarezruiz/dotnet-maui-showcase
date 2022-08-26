@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AbsoluteLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalaxyLogicGame.Pages_and_descriptions.WalletPreview"
+             AbsoluteLayout.LayoutBounds="0, 0, 360, 80" >
+    <StackLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional">
+        <Label Text="Connect wallet" x:Name="label" TextColor="White" FontSize="24" FontAttributes="Bold"
+                VerticalOptions="Center" HorizontalTextAlignment="Center"
+                HorizontalOptions="Center" HeightRequest="60"/>
+    </StackLayout>
+</AbsoluteLayout>
