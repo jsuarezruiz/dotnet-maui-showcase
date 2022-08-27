@@ -389,7 +389,7 @@ Implementation of a [Medicine tracker app UI](https://dribbble.com/shots/1913042
 ## [PetAdoptionApp](https://https://github.com/JoeTomkinson/PetAdoptionApp)
 
 Implementation of a [Pet Adoption app UI](https://dribbble.com/shots/15845064-Pet-Adoption-App) using .NET MAUI. <br/>
-Dribble by Andika Wiraputra 
+Dribble by Arinasdd.
 
 ![Demo Screen Shots](images/ShowcaseImage.png)
 
