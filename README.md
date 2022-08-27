@@ -385,3 +385,26 @@ Implementation of a [Medicine tracker app UI](https://dribbble.com/shots/1913042
 
 - Source code: [https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge](https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge)
 - Author: [Thaveesha Kannangara](www.linkedin.com/in/thaveesha-kannangara)
+
+## [PetAdoptionApp](https://https://github.com/JoeTomkinson/PetAdoptionApp)
+
+Implementation of a [Pet Adoption app UI](https://dribbble.com/shots/15845064-Pet-Adoption-App) using .NET MAUI. <br/>
+Dribble by Andika Wiraputra 
+
+![Demo Screen Shots](images/ShowcaseImage.png)
+
+### Supported platforms
+- [x] iOS
+- [x] Android
+
+### Features
+- CarouselView
+- Custom Fonts
+- MVVM
+- DI
+- MAUI Shapes
+
+### More Info
+
+- Source code: [https://github.com/JoeTomkinson/PetAdoptionApp](https://github.com/JoeTomkinson/PetAdoptionApp)
+- Author: [Joe Tomkinson](https://joetomkinson.dev)
