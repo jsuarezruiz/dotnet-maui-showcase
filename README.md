@@ -385,3 +385,27 @@ Implementation of a [Medicine tracker app UI](https://dribbble.com/shots/1913042
 
 - Source code: [https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge](https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge)
 - Author: [Thaveesha Kannangara](www.linkedin.com/in/thaveesha-kannangara)
+
+## [.NET MAUI Bank](https://github.com/VladislavAntonyuk/MauiSamples/tree/main/MauiBank)
+
+Replicate the Ukrainian Monobank application UI using .NET MAUI.
+
+![MauiBank](images/dotnet-maui-bank-app.gif)
+
+Based on this [design](https://dribbble.com/shots/4889186-Monobank-Enhancements).
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+### Features:
+
+- Shell
+- CarouselView
+- CollectionView with grouping
+- Pin Keyboard with Biometric Auth
+- Credit Card Animation
+
+### More information:
+- Author: [Vladislav Antonyuk](https://github.com/VladislavAntonyuk)
+- Source code: [https://github.com/VladislavAntonyuk/MauiSamples/tree/main/MauiBank](https://github.com/VladislavAntonyuk/MauiSamples/tree/main/MauiBank)
