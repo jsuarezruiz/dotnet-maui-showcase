@@ -386,6 +386,34 @@ Implementation of a [Medicine tracker app UI](https://dribbble.com/shots/1913042
 - Source code: [https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge](https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge)
 - Author: [Thaveesha Kannangara](www.linkedin.com/in/thaveesha-kannangara)
 
+## [Real Estate App](https://github.com/marcfabregatb/RealEstate.App)
+
+Having fun developing a Real Estate App for the UI Challenge made with .NET MAUI. 
+
+## Preview
+![Real Estate App](images/realEstateApp.gif)
+
+Based on this [design](https://dribbble.com/shots/15888343-Humz-Real-Estate-Mobile-App/attachments/7715467?mode=media) by [Jëlly](https://dribbble.com/ramadhanibsn).
+
+### Supported platforms
+- [x] iOS
+- [x] Android
+
+### Features:
+- CarouselView
+- IndicatorView
+- CollectionView
+- Custom Fonts
+- Shadows.
+- Borders.
+- Gradients
+- CommunityToolkit.Maui
+- CommunityToolkit.Mvvm
+
+### More information:
+- Author: [Marc Fabregat](https://github.com/marcfabregatb) [twitter](https://twitter.com/Marcfabregatb)
+- Source code: [https://github.com/marcfabregatb/RealEstate.App](https://github.com/marcfabregatb/RealEstate.App)
+
 ## [.NET MAUI Bank](https://github.com/VladislavAntonyuk/MauiSamples/tree/main/MauiBank)
 
 Replicate the Ukrainian Monobank application UI using .NET MAUI.
@@ -461,4 +489,5 @@ Android, iOS, macOS and Windows.
 
 ### More information:
 - Author: [Akhror Ziyodinov](https://github.com/ahror1997)
+
 
