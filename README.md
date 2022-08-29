@@ -448,3 +448,17 @@ It works only in portrait mode
 ### More information:
 - Author: [Jorge Diego Crespo](https://github.com/jorgediegocrespo)
 - Source code: [https://github.com/jorgediegocrespo/MauiMemoryGame](https://github.com/jorgediegocrespo/MauiMemoryGame)
+
+## [.NET MAUI Car Rent App](https://github.com/ahror1997/xaml-UI-maui)
+
+![Car-Rent-App](images/car_rent.jpg)
+
+Based on this [design](https://www.figma.com/file/Jbz8W2sXm3LK7LIQHk4UHf/Car-Rent-App-(Community)?node-id=0%3A1).
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+### More information:
+- Author: [Akhror Ziyodinov](https://github.com/ahror1997)
+
