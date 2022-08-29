@@ -393,10 +393,6 @@ Dribble by Arinasdd.
 
 ![Demo Screen Shots](images/ShowcaseImage.png)
 
-### Supported platforms
-- [x] iOS
-- [x] Android
-
 ### Features
 - CarouselView
 - Custom Fonts
@@ -408,3 +404,107 @@ Dribble by Arinasdd.
 
 - Source code: [https://github.com/JoeTomkinson/PetAdoptionApp](https://github.com/JoeTomkinson/PetAdoptionApp)
 - Author: [Joe Tomkinson](https://joetomkinson.dev)
+
+## [Real Estate App](https://github.com/marcfabregatb/RealEstate.App)
+
+Having fun developing a Real Estate App for the UI Challenge made with .NET MAUI. 
+
+## Preview
+![Real Estate App](images/realEstateApp.gif)
+
+Based on this [design](https://dribbble.com/shots/15888343-Humz-Real-Estate-Mobile-App/attachments/7715467?mode=media) by [Jëlly](https://dribbble.com/ramadhanibsn).
+
+### Supported platforms
+- [x] iOS
+- [x] Android
+
+### Features:
+- CarouselView
+- IndicatorView
+- CollectionView
+- Custom Fonts
+- Shadows.
+- Borders.
+- Gradients
+- CommunityToolkit.Maui
+- CommunityToolkit.Mvvm
+
+### More information:
+- Author: [Marc Fabregat](https://github.com/marcfabregatb) [twitter](https://twitter.com/Marcfabregatb)
+- Source code: [https://github.com/marcfabregatb/RealEstate.App](https://github.com/marcfabregatb/RealEstate.App)
+
+## [.NET MAUI Bank](https://github.com/VladislavAntonyuk/MauiSamples/tree/main/MauiBank)
+
+Replicate the Ukrainian Monobank application UI using .NET MAUI.
+
+![MauiBank](images/dotnet-maui-bank-app.gif)
+
+Based on this [design](https://dribbble.com/shots/4889186-Monobank-Enhancements).
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+### Features:
+
+- Shell
+- CarouselView
+- CollectionView with grouping
+- Pin Keyboard with Biometric Auth
+- Credit Card Animation
+
+### More information:
+- Author: [Vladislav Antonyuk](https://github.com/VladislavAntonyuk)
+- Source code: [https://github.com/VladislavAntonyuk/MauiSamples/tree/main/MauiBank](https://github.com/VladislavAntonyuk/MauiSamples/tree/main/MauiBank)
+
+## [dotnet Maui memory game](https://github.com/jorgediegocrespo/MauiMemoryGame)
+
+Classic memory game in which the user has to discover all the pairs of cards with the same images before time runs out. 
+It allows the selection of different difficulty levels and different themes
+
+<img src="./images/memoryGameLightMode.gif" alt="memory game in light mode" width="250"/>
+<img src="./images/memoryGameWinLightMode.gif" alt="win animation in light mode" width="250"/>
+<img src="./images/memoryGameLoseLightMode.gif" alt="lose animation in light mode" width="250"/>
+
+<img src="./images/memoryGameDarkMode.gif" alt="memory game in dark mode" width="250"/>
+<img src="./images/memoryGameWinDarkMode.gif" alt="win animation in dark mode" width="250"/>
+<img src="./images/memoryGameLoseDarkMode.gif" alt="lose animation in dark mode" width="250"/>
+
+### Platforms
+
+*   **iOS**
+*   **Android**
+
+It works only in portrait mode
+
+### Features:
+
+- Shell
+- AppBuilder
+- MVVM
+- Animations
+- Lottie
+- Skia sharp
+- Font icons
+- Borders
+- Shadows
+- Color gradient brushes
+- BindableLayout
+- Dark and light themes
+
+### More information:
+- Author: [Jorge Diego Crespo](https://github.com/jorgediegocrespo)
+- Source code: [https://github.com/jorgediegocrespo/MauiMemoryGame](https://github.com/jorgediegocrespo/MauiMemoryGame)
+
+## [.NET MAUI Car Rent App](https://github.com/ahror1997/xaml-UI-maui)
+
+![Car-Rent-App](images/car_rent.jpg)
+
+Based on this [design](https://www.figma.com/file/Jbz8W2sXm3LK7LIQHk4UHf/Car-Rent-App-(Community)?node-id=0%3A1).
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+### More information:
+- Author: [Akhror Ziyodinov](https://github.com/ahror1997)
