@@ -409,3 +409,42 @@ Android, iOS, macOS and Windows.
 ### More information:
 - Author: [Vladislav Antonyuk](https://github.com/VladislavAntonyuk)
 - Source code: [https://github.com/VladislavAntonyuk/MauiSamples/tree/main/MauiBank](https://github.com/VladislavAntonyuk/MauiSamples/tree/main/MauiBank)
+
+## [dotnet Maui memory game](https://github.com/jorgediegocrespo/MauiMemoryGame)
+
+Classic memory game in which the user has to discover all the pairs of cards with the same images before time runs out. 
+It allows the selection of different difficulty levels and different themes
+
+<img src="./images/memoryGameLightMode.gif" alt="memory game in light mode" width="250"/>
+<img src="./images/memoryGameWinLightMode.gif" alt="win animation in light mode" width="250"/>
+<img src="./images/memoryGameLoseLightMode.gif" alt="lose animation in light mode" width="250"/>
+
+<img src="./images/memoryGameDarkMode.gif" alt="memory game in dark mode" width="250"/>
+<img src="./images/memoryGameWinDarkMode.gif" alt="win animation in dark mode" width="250"/>
+<img src="./images/memoryGameLoseDarkMode.gif" alt="lose animation in dark mode" width="250"/>
+
+### Platforms
+
+*   **iOS**
+*   **Android**
+
+It works only in portrait mode
+
+### Features:
+
+- Shell
+- AppBuilder
+- MVVM
+- Animations
+- Lottie
+- Skia sharp
+- Font icons
+- Borders
+- Shadows
+- Color gradient brushes
+- BindableLayout
+- Dark and light themes
+
+### More information:
+- Author: [Jorge Diego Crespo](https://github.com/jorgediegocrespo)
+- Source code: [https://github.com/jorgediegocrespo/MauiMemoryGame](https://github.com/jorgediegocrespo/MauiMemoryGame)
