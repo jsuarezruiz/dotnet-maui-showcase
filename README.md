@@ -4,6 +4,44 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [Mitawi Weather App](https://github.com/danimonettelli/netmaui-mitawi-app-challenge)
+
+Mitawi App UI/UX Challenge made with .NET MAUI.
+
+![Beautyshop App](images/mitawi_weather.png)
+
+Inspired on this [design](https://dribbble.com/shots/15661680-Weather-App) by [Vitaliy Dorozhko](https://dribbble.com/Offdesignarea).
+
+### Platforms
+
+Android, iOS.
+
+### Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Harmony in portrait and landscape orientations.
+* Geolocation.
+* Geocoding.
+* Converters.
+* .NET MAUI Community Toolkit.
+* MVVM Community Toolkit.
+* Sentry.Maui (Error & Performance Monitoring).
+* System.Text.Json.
+* System.Net.Http.
+* Visual State Manager.
+* OnScreenSizeMarkup.
+* BindableLayout.
+* Border.
+* Shadow.
+* Linear gradient brushes.
+* Shapes.
+* Multi-bindings.
+
+### More information:
+- Author: [Daniel Monettelli](https://github.com/danimonettelli)
+- Blog post: [Migration from Mitawi to .NET MAUI](https://danimonettelli.github.io/posts/migration-from-mitawi-to-net-maui/)
+- Source code: [https://github.com/danimonettelli/netmaui-mitawi-app-challenge](https://github.com/danimonettelli/netmaui-mitawi-app-challenge)
+
 ## [Ecommerce Design](https://github.com/exendahal/EcommerceMAUI)
 Ecommerce design with NET MAUI (MVVM Pattern)
 
