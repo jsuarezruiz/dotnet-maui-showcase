@@ -546,3 +546,34 @@ Android, iOS, macOS and Windows.
 
 ### More information:
 - Author: [Akhror Ziyodinov](https://github.com/ahror1997)
+
+
+## [Maui Tube Player](https://github.com/naweed/MauiTubePlayer)
+A REAL and BEAUTIFUL Youtube Clone app built using .Net Maui.
+
+![Maui Tube Player](https://user-images.githubusercontent.com/103980/187330554-af91ea49-fd0f-423b-a283-ef5f4ba16e0a.png)
+
+### Platforms
+- [x] iOS
+- [x] Android
+- [x] Windows
+- [x] MacOS
+
+### Features:
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Application Features:
+- [X] Real Youtube API Connection
+- [X] Search for videos
+- [X] Infinite Scrolling
+- [X] Video Details
+- [X] Share a video
+- [X] Play the video
+- [X] Download the Video
+- [X] And a nice UI Design
+
+### More information:
+- Author: [Naweed Akram](https://github.com/naweed)
+- Source code: [https://github.com/naweed/MauiTubePlayer](https://github.com/naweed/MauiTubePlayer)
+
+### Running App
+https://user-images.githubusercontent.com/103980/186558099-59ded8cf-349f-4c98-aba2-9d569a18bb9e.mp4
