@@ -302,6 +302,7 @@ Implementation of a [coffee shopping UI](https://dribbble.com/shots/11246934-Pro
 - Author: [Andrey Zhdanov](https://www.linkedin.com/in/zdanovs)
 - Original author (of the Xamarin version): [Steven Thewissen](https://twitter.com/devnl)
 
+
 ## [BMI Calculator](https://github.com/naweed/MauiBMICalculator)
 
 A simple and gorgeous BMI Calculator built using .NET MAUI and Skia Sharp. Inspired by this [Dribble Design](https://dribbble.com/shots/7735120-BMI-BMR-Calculator-App-Free-UI-Kit-1-Dribbble-Invitation).
@@ -324,3 +325,35 @@ A simple and gorgeous BMI Calculator built using .NET MAUI and Skia Sharp. Inspi
 ### Running App
 https://user-images.githubusercontent.com/103980/185792503-6b6a8178-241a-4b50-99dd-68f73bbbc7ee.mp4
 
+
+## [Maui Tube Player](https://github.com/naweed/MauiTubePlayer)
+
+A REAL and BEAUTIFUL Youtube Clone app built using .Net Maui.
+
+![Maui Tube Player](https://user-images.githubusercontent.com/103980/187330554-af91ea49-fd0f-423b-a283-ef5f4ba16e0a.png)
+
+### Platforms
+- [x] iOS
+- [x] Android
+- [x] Windows
+- [x] MacOS
+
+### Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Application Features:
+- [X]  Real Youtube API Connection
+- [X]  Search for videos
+- [X]  Infinite Scrolling
+- [X]  Video Details
+- [X]  Share a video
+- [X]  Play the video
+- [X]  Download the Video
+- [X]  And a nice UI Design
+
+### More information:
+- Author: [Naweed Akram](https://github.com/naweed)
+- Source code: [https://github.com/naweed/MauiTubePlayer](https://github.com/naweed/MauiTubePlayer)
+
+### Running App
+https://user-images.githubusercontent.com/103980/186558099-59ded8cf-349f-4c98-aba2-9d569a18bb9e.mp4
