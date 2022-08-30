@@ -424,6 +424,25 @@ Implementation of a [Medicine tracker app UI](https://dribbble.com/shots/1913042
 - Source code: [https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge](https://github.com/thaveeshakannangara/MAUIBeautifulUIChallenge)
 - Author: [Thaveesha Kannangara](www.linkedin.com/in/thaveesha-kannangara)
 
+## [PetAdoptionApp](https://https://github.com/JoeTomkinson/PetAdoptionApp)
+
+Implementation of a [Pet Adoption app UI](https://dribbble.com/shots/15845064-Pet-Adoption-App) using .NET MAUI. <br/>
+Dribble by Arinasdd.
+
+![Demo Screen Shots](images/ShowcaseImage.png)
+
+### Features
+- CarouselView
+- Custom Fonts
+- MVVM
+- DI
+- MAUI Shapes
+
+### More Info
+
+- Source code: [https://github.com/JoeTomkinson/PetAdoptionApp](https://github.com/JoeTomkinson/PetAdoptionApp)
+- Author: [Joe Tomkinson](https://joetomkinson.dev)
+
 ## [Real Estate App](https://github.com/marcfabregatb/RealEstate.App)
 
 Having fun developing a Real Estate App for the UI Challenge made with .NET MAUI. 
@@ -527,5 +546,3 @@ Android, iOS, macOS and Windows.
 
 ### More information:
 - Author: [Akhror Ziyodinov](https://github.com/ahror1997)
-
-
