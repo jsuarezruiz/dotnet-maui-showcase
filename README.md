@@ -681,4 +681,4 @@ https://user-images.githubusercontent.com/9836726/187584113-9e725430-562d-4d78-8
 Windows , Android, iOS, macOS.
 
 ### More information:
-- Author: [Vinoth](https://github.com/https://github.com/rvinothrajendran)
+- Author: [Vinoth](https://github.com/rvinothrajendran)
