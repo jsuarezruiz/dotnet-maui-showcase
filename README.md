@@ -4,6 +4,34 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [Todo.me](https://github.com/behl1anmol/Todo.me)
+Todo.me is a simple note taking and task tracking app made with .NET MAUI.
+
+### Platforms
+
+- [x] Android
+- [?] Windows (Work in progress)
+
+## Features
+* Lottie Animations
+* Randomly set backgroung color for every Todo item
+* ColletionView
+* SwipeView
+* MVVM
+* Borders
+
+## Preview
+<img  src="gifs/Maui_app_todo.gif" width="250" height="550"> &nbsp;&nbsp;&nbsp; 
+<img src="images/TodoView.jpg" width="250" height="550"> &nbsp;&nbsp;&nbsp; 
+<img src="images/TodoDetailsView.jpg" width="250" height="550"> <br>
+
+### More information
+- Author: [Anmol Behl](https://github.com/behl1anmol)
+- Source code: [https://github.com/behl1anmol/Todo.me](https://github.com/behl1anmol/Todo.me)
+- Future planned features:
+	* Integrating Agile Methodology to better manage daily routine
+	* iOS Support
+
 ## [Mitawi Weather App](https://github.com/danimonettelli/netmaui-mitawi-app-challenge)
 
 Mitawi App UI/UX Challenge made with .NET MAUI.
@@ -546,6 +574,104 @@ Android, iOS, macOS and Windows.
 
 ### More information:
 - Author: [Akhror Ziyodinov](https://github.com/ahror1997)
+
+
+## [Maui Tube Player](https://github.com/naweed/MauiTubePlayer)
+A REAL and BEAUTIFUL Youtube Clone app built using .Net Maui.
+
+![Maui Tube Player](https://user-images.githubusercontent.com/103980/187330554-af91ea49-fd0f-423b-a283-ef5f4ba16e0a.png)
+
+### Platforms
+- [x] iOS
+- [x] Android
+- [x] Windows
+- [x] MacOS
+
+### Features:
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Application Features:
+- [X] Real Youtube API Connection
+- [X] Search for videos
+- [X] Infinite Scrolling
+- [X] Video Details
+- [X] Share a video
+- [X] Play the video
+- [X] Download the Video
+- [X] And a nice UI Design
+
+### More information:
+- Author: [Naweed Akram](https://github.com/naweed)
+- Source code: [https://github.com/naweed/MauiTubePlayer](https://github.com/naweed/MauiTubePlayer)
+
+### Running App
+https://user-images.githubusercontent.com/103980/186558099-59ded8cf-349f-4c98-aba2-9d569a18bb9e.mp4
+
+## [MAUI Jass](https://github.com/Davidoutz/MAUI-Jass)
+Multiplayer Swiss Jass game. [More info about the game](https://en.wikipedia.org/wiki/Jass#Schmaus)
+
+### Running App
+* Screenshot
+![Maui JASS screenshot](https://github.com/Davidoutz/MAUI-Jass/blob/main/Demo/screenshot_3.png)
+
+* Video
+![Maui JASS video](https://github.com/Davidoutz/MAUI-Jass/blob/main/Demo/demo.gif)
+
+### Platforms
+- [x] iOS
+- [X] Android
+- [X] macOS
+
+Windows has some buggy behaviors.
+
+### Features:
+
+- [X] MVVM/Community Toolkit
+- [X] Animations
+- [X] Fonts images
+- [X] Messaging
+- [X] Create/Join/Leave/Rejoin rooms
+- [X] Official game rules
+- [X] Multiplayers/Realtime communication (SignalR)
+- [X] Blazor server backend on Azure 
+
+### More information:
+- Author: [David Beauverd](https://github.com/Davidoutz)
+- Source code: [https://github.com/Davidoutz/MAUI-Jass](https://github.com/Davidoutz/MAUI-Jass)
+- Extra: A new game starts automatically whenever 4 players join a room. Therefore you should use at least 4 devices/emulators for the best user experience :)
+
+
+## [MAUIDelivery](https://github.com/hprez21/MAUIDelivery)
+
+MAUIDelivery: A beautiful delivery .NET MAUI APP 
+
+![MAUIDelivery](https://user-images.githubusercontent.com/9836726/187585035-1c943f33-d881-4572-977c-d560ae84c755.jpg)
+
+### Platforms
+
+Android, iOS.
+
+### Features:
+
+* Use all new .NET MAUI APIs: Startup, HostBuilder, etc.
+* Gradients
+* Frames
+* Custom Fonts
+* SkiaSharp.Extended (Lottie Animations)
+* Font Icons
+* Borders
+* DataTemplate Selectors
+* Converters
+* CollectionView with groups
+* Animations
+* DataTriggers
+
+### More information:
+- Author: [Héctor Pérez](https://github.com/hprez21)
+- Blog post: [How was the MAUIDelivery application created?](https://devs.school/how-was-the-mauidelivery-application-created/)
+- Source code: [https://github.com/hprez21/MAUIDelivery](https://github.com/hprez21/MAUIDelivery)
+
+### Running App
+https://user-images.githubusercontent.com/9836726/187584113-9e725430-562d-4d78-87e2-0affd2ede8e3.mp4
 
 ## [.NET MAUI Buy Used Car App](https://github.com/rvinothrajendran/BuyUsedCarApp)
 
