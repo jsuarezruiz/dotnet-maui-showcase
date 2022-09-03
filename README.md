@@ -672,3 +672,13 @@ Android, iOS.
 
 ### Running App
 https://user-images.githubusercontent.com/9836726/187584113-9e725430-562d-4d78-87e2-0affd2ede8e3.mp4
+
+## [.NET MAUI Buy Used Car App](https://github.com/rvinothrajendran/BuyUsedCarApp)
+
+![Buy-Used-Car-App](https://user-images.githubusercontent.com/16264167/187593022-3f224396-4ad8-4875-adb6-b66c8a30af76.gif)
+
+### Platforms
+Windows , Android, iOS, macOS.
+
+### More information:
+- Author: [Vinoth](https://github.com/rvinothrajendran)
