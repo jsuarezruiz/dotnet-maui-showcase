@@ -4,6 +4,26 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [Crypto Tracker App](https://docs.telerik.com/devtools/maui/demos-and-sample-apps/crypto-app)
+
+The Crypto Tracker App is a demo application built with .NET MAUI & Telerik UI for .NET MAUI components, showcasing real-time changes in cryptocurrency prices.
+
+![Crypto Tracker App on all platforms](images/crypto-app.png)
+
+### Platforms
+
+Android, iOS, macOS and Windows.
+
+### Features:
+
+* Uses latest .NET MAUI & .NET 6 runtime
+* Caters to mobile & desktop UX differently
+* Showcases polished & performant UI like ListView, Charts etc.
+
+### More information:
+- [App Source Code](https://github.com/telerik/maui-samples/tree/main/Samples/CryptoTracker)
+- [Telerik UI for .NET MAUI](https://www.telerik.com/maui-ui)
+
 ## [Todo.me](https://github.com/behl1anmol/Todo.me)
 Todo.me is a simple note taking and task tracking app made with .NET MAUI.
 
