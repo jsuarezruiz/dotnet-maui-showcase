@@ -703,11 +703,6 @@ Windows , Android, iOS, macOS.
 ### More information:
 - Author: [Vinoth](https://github.com/rvinothrajendran)
 
-## [HeartsCounter](https://github.com/flipper09112/HeartsCounter)
-An app for record all points of cards game called [Hearts](https://bicyclecards.com/how-to-play/hearts/)
-
-![HeartsCounter](https://user-images.githubusercontent.com/103980/187330554-af91ea49-fd0f-423b-a283-ef5f4ba16e0a.png)
-
 ### Platforms
 - [x] iOS
 - [x] Android
@@ -765,6 +760,7 @@ Windows has some buggy behaviors.
 - Author: [David Beauverd](https://github.com/Davidoutz)
 - Source code: [https://github.com/Davidoutz/MAUI-Jass](https://github.com/Davidoutz/MAUI-Jass)
 - Extra: A new game starts automatically whenever 4 players join a room. Therefore you should use at least 4 devices/emulators for the best user experience :)
+
 ## [HeartsCounter](https://github.com/flipper09112/HeartsCounter)
 An app for record all points of cards game called [Hearts](https://bicyclecards.com/how-to-play/hearts/)
 Ideal for play with friends, save the points and no kill trees.
