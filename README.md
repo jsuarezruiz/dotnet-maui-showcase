@@ -702,3 +702,21 @@ Windows , Android, iOS, macOS.
 
 ### More information:
 - Author: [Vinoth](https://github.com/rvinothrajendran)
+
+## [Player Profile App] (https://github.com/nikamvd/-.NET-MAUI-Beautiful-UI-Challenge-PlayerProfileApp)
+
+App is specifically built for .NET MAUI Beautiful UI Challenge. Demonstrates building UI for iOS, Android, Mac and Windows from shared code base.
+
+![image](https://user-images.githubusercontent.com/26141030/189528536-a914c1b8-8fa6-4c05-a3bd-321b69b6edbe.png)
+
+### Platforms
+
+Android, iOS, macOS
+
+### Features:
+Demonstrates building UI for iOS, Android, Mac and Windows from shared code base.
+
+### More information:
+- Author: [Vinayak Nikam] (https://github.com/nikamvd)
+- Source code: (https://github.com/nikamvd/-.NET-MAUI-Beautiful-UI-Challenge-PlayerProfileApp)
+
