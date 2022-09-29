@@ -4,6 +4,28 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+## [News App](https://github.com/henduck/MAUINewsApp)
+
+Made for the .NET MAUI Beautiful UI Challenge
+
+Based on [this design](https://dribbble.com/shots/15607170-News-App-Mobile-Concept) by [Aan Ragil](https://dribbble.com/aanragilj)
+
+![NewsApp](images/newsapp.jpg)
+
+## Platforms
+iOS and Android
+
+## Features
+- FlexLayout
+- BindableLayout
+- CollectionView
+- MVVM
+- Shell Navigation
+
+## More Information
+- Author: [Jesse Smith](https://github.com/henduck)
+- Source Code: https://github.com/henduck/MAUINewsApp
+
 ## [Crypto Tracker App](https://docs.telerik.com/devtools/maui/demos-and-sample-apps/crypto-app)
 
 The Crypto Tracker App is a demo application built with .NET MAUI & Telerik UI for .NET MAUI components, showcasing real-time changes in cryptocurrency prices.
