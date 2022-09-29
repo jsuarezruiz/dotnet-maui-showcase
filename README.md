@@ -4,6 +4,35 @@ A curated list of awesome **.NET MAUI** samples to show how to create **goodlook
 
 *Work in progress*. Contributions are always welcome!
 
+
+## [Blink - Video Converter](https://github.com/osaleem303/Blink-Design)
+
+A simple take on user friendly Offline Video Converter built uisng .NET MAUI. Inspired from [Microsoft Fluent Design System](https://www.microsoft.com/design/fluent/).
+
+![Blink - Video Converter](images/blink.png)
+
+### Platforms
+
+- [x] iOS
+- [x] Android
+- [x] Windows
+- [x] macOS
+
+### Features:
+
+* MVVM
+* Frames
+* Shadows
+* Bindable Layout
+* CollectionView
+* SkiaSharp.Extended (Lottie animations)
+* Gradients
+* Control Templates
+
+### More information:
+- Author: [Owais Saleem](https://github.com/osaleem303)
+- Source code: [https://github.com/osaleem303/Blink-Design](https://github.com/osaleem303/Blink-Design)
+
 ## [News App](https://github.com/henduck/MAUINewsApp)
 
 Made for the .NET MAUI Beautiful UI Challenge
