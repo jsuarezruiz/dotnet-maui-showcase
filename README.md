@@ -741,3 +741,17 @@ Demonstrates building UI for iOS, Android, Mac and Windows from shared code base
 - Author: [Vinayak Nikam] (https://github.com/nikamvd)
 - Source code: (https://github.com/nikamvd/-.NET-MAUI-Beautiful-UI-Challenge-PlayerProfileApp)
 
+## [FitnessApp](https://github.com/gauravagrwal/FitnessApp)
+
+A FitnessApp using .NET MAUI inspired by [Fitness and Workout App Design](https://www.behance.net/gallery/151369851/Fitness-and-Workout-App-Design).
+
+![FitnessApp](images/FitnessApp.png)
+
+### Platforms
+
+- [x] Android
+- [x] Windows
+
+### More information:
+- Author: [Gaurav Agrawal](https://github.com/gauravagrwal)
+- Source code: [https://github.com/gauravagrwal/FitnessApp](https://github.com/gauravagrwal/FitnessApp)
