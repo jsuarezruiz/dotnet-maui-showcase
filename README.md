@@ -1,6 +1,6 @@
 # .NET MAUI goodlooking UI Samples [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A curated list of awesome **.NET MAUI** samples to show how to create **goodlooking UI** with .NET.
+A curated list of awesome **.NET MAUI** open source samples to show how to create **goodlooking UI** with .NET.
 
 *Work in progress*. Contributions are always welcome!
 
