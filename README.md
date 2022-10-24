@@ -1,8 +1,63 @@
 # .NET MAUI goodlooking UI Samples [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A curated list of awesome **.NET MAUI** samples to show how to create **goodlooking UI** with .NET.
+A curated list of awesome **.NET MAUI** open source samples to show how to create **goodlooking UI** with .NET.
 
 *Work in progress*. Contributions are always welcome!
+
+# MAUIPETS
+Proyect for .NET MAUI CHALLENGE, MAUIPETS is a demo Adoption Pet App.
+#[ MAUIPETS](https://github.com/BryanOroxon/MAUIPETS " MAUIPETS")
+
+------------
+## PlatformsPlatforms
+-  Android
+- iOS
+- Mac Catalist
+- Windows
+
+
+### Features
+
+- API REST
+- BORDERS
+- COLLECTION VIEW
+- COMMUNITY TOOLKIT MVVM
+- FRAMES
+- SHADOWS
+- SHAPES
+
+## Images Preview
+[![MAUIPETS1](https://raw.githubusercontent.com/BryanOroxon/MAUIPETS/main/MAUIPETS/ScreenShots/Mauipets1.png "MAUIPETS1")](https://raw.githubusercontent.com/BryanOroxon/MAUIPETS/main/MAUIPETS/ScreenShots/Mauipets1.png "MAUIPETS1")
+
+
+[![MAUIPETS2](https://raw.githubusercontent.com/BryanOroxon/MAUIPETS/main/MAUIPETS/ScreenShots/MauiPets2.png "MAUIPETS2")](https://raw.githubusercontent.com/BryanOroxon/MAUIPETS/main/MAUIPETS/ScreenShots/MauiPets2.png "MAUIPETS2")
+
+
+## More information:
+- Author: [Bryan Oroxon](https://github.com/BryanOroxon "Bryan Oroxon")
+- Source code:[ https://github.com/BryanOroxon/MAUIPETS](https://github.com/BryanOroxon/MAUIPETS " https://github.com/BryanOroxon/MAUIPETS")
+
+## [News App](https://github.com/henduck/MAUINewsApp)
+
+Made for the .NET MAUI Beautiful UI Challenge
+
+Based on [this design](https://dribbble.com/shots/15607170-News-App-Mobile-Concept) by [Aan Ragil](https://dribbble.com/aanragilj)
+
+![NewsApp](images/newsapp.jpg)
+
+## Platforms
+iOS and Android
+
+## Features
+- FlexLayout
+- BindableLayout
+- CollectionView
+- MVVM
+- Shell Navigation
+
+## More Information
+- Author: [Jesse Smith](https://github.com/henduck)
+- Source Code: https://github.com/henduck/MAUINewsApp
 
 ## [Crypto Tracker App](https://docs.telerik.com/devtools/maui/demos-and-sample-apps/crypto-app)
 
@@ -790,3 +845,19 @@ Ideal for play with friends, save the points and no kill trees.
 ### More information:
 - Author: [Filipe Torres](https://github.com/flipper09112)
 - Source code: [https://github.com/flipper09112/HeartsCounter](https://github.com/flipper09112/HeartsCounter)
+
+## [Player Profile App](https://github.com/nikamvd/-.NET-MAUI-Beautiful-UI-Challenge-PlayerProfileApp)
+
+App is specifically built for .NET MAUI Beautiful UI Challenge. Demonstrates building UI for iOS, Android, Mac and Windows from shared code base.
+
+![image](https://user-images.githubusercontent.com/26141030/189528536-a914c1b8-8fa6-4c05-a3bd-321b69b6edbe.png)
+
+### Platforms
+Android, iOS, macOS
+
+### Features:
+Demonstrates building UI for iOS, Android, Mac and Windows from shared code base.
+
+### More information:
+- Author: [Vinayak Nikam] (https://github.com/nikamvd)
+- Source code: (https://github.com/nikamvd/-.NET-MAUI-Beautiful-UI-Challenge-PlayerProfileApp)
