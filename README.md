@@ -2,7 +2,7 @@
 
 A curated list of awesome **.NET MAUI** open source samples to show how to create **goodlooking UI** with .NET.
 
-*Work in progress*. Contributions are always welcome!
+Contributions are always welcome!
 
 # MAUIPETS
 Proyect for .NET MAUI CHALLENGE, MAUIPETS is a demo Adoption Pet App.
