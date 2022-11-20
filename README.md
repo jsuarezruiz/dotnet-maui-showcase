@@ -4,6 +4,26 @@ A curated list of awesome **.NET MAUI** open source samples to show how to creat
 
 Contributions are always welcome!
 
+## [SpaceX History](https://github.com/EduardoReisDev/SpaceXhistory)
+
+Made for the .NET MAUI Beautiful UI Challenge
+
+## Images Preview
+![iPhone 13 Pro](https://user-images.githubusercontent.com/52722526/202879682-acf10d29-4614-449b-a8d2-53ce45148867.png)
+
+## Platforms
+iOS and Android
+
+## Features
+- REST API
+- ListView
+- MVVM
+
+## More Information
+- Author: [Eduardo Reis](https://github.com/EduardoReisDev)
+- Source Code: https://github.com/EduardoReisDev/SpaceXhistory
+
+
 # MAUIPETS
 Proyect for .NET MAUI CHALLENGE, MAUIPETS is a demo Adoption Pet App.
 #[ MAUIPETS](https://github.com/BryanOroxon/MAUIPETS " MAUIPETS")
