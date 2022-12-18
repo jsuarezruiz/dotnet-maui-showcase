@@ -25,7 +25,7 @@ iOS and Android
 
 
 # MAUIPETS
-Proyect for .NET MAUI CHALLENGE, MAUIPETS is a demo Adoption Pet App.
+Project for .NET MAUI CHALLENGE, MAUIPETS is a demo Adoption Pet App.
 #[ MAUIPETS](https://github.com/BryanOroxon/MAUIPETS " MAUIPETS")
 
 ------------
