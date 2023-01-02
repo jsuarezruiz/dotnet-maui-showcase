@@ -127,7 +127,7 @@ Todo.me is a simple note taking and task tracking app made with .NET MAUI.
 	* Integrating Agile Methodology to better manage daily routine
 	* iOS Support
 
-## [Mitawi Weather App](https://github.com/danimonettelli/netmaui-mitawi-app-challenge)
+## [Mitawi Weather App](https://github.com/danielmonettelli/netmaui-mitawi-app-challenge)
 
 Mitawi App UI/UX Challenge made with .NET MAUI.
 
@@ -161,9 +161,10 @@ Android, iOS.
 * Multi-bindings.
 
 ### More information:
-- Author: [Daniel Monettelli](https://github.com/danimonettelli)
-- Blog post: [Migration from Mitawi to .NET MAUI](https://danimonettelli.github.io/posts/migration-from-mitawi-to-net-maui/)
-- Source code: [https://github.com/danimonettelli/netmaui-mitawi-app-challenge](https://github.com/danimonettelli/netmaui-mitawi-app-challenge)
+- Author: [Daniel Monettelli](https://github.com/danielmonettelli)
+- English publication: [Migration from Mitawi to .NET MAUI](https://danielmonettelli.github.io/posts/migrating-mitawi-to-net-maui/)
+- Spanish publication: [Migrando Mitawi a .NET MAUI](https://dev.to/danielmonettelli/migrando-mitawi-a-net-maui-25ij)
+- Source code: [https://github.com/danielmonettelli/netmaui-mitawi-app-challenge](https://github.com/danielmonettelli/netmaui-mitawi-app-challenge)
 
 ## [Ecommerce Design](https://github.com/exendahal/EcommerceMAUI)
 Ecommerce design with NET MAUI (MVVM Pattern)
