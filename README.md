@@ -4,6 +4,28 @@ A curated list of awesome **.NET MAUI** open source samples to show how to creat
 
 Contributions are always welcome!
 
+## [MAUIsland](https://github.com/Strypper/mauisland)
+
+Made for the .NET MAUI Beautiful UI Challenge
+
+## Images Preview
+![Project mockup](https://github.com/Strypper/mauisland/blob/main/showcases/projectmockup.png?raw=true)
+
+## Platforms
+iOS, Android, WinUI and Tizen
+
+## Features
+- Controls galleries
+- MVVM
+- Toolkit
+- Syncfusion
+- SignalR
+
+## More Information
+- Author: [Strypper Vandel Jason](hhttps://github.com/Strypper)
+- Source Code: https://github.com/Strypper/mauisland
+
+
 ## [SpaceX History](https://github.com/EduardoReisDev/SpaceXhistory)
 
 Made for the .NET MAUI Beautiful UI Challenge
