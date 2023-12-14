@@ -869,24 +869,21 @@ Welcome to FLIPZON, an advanced E-Commerce application developed using .NET MAUI
 ## Screenshots
 
 
+| ![Login](./images/login.png) | ![Signup](./images/signup.png) | ![Home](./images/home.png) |
+|:--:|:--:|:--:|
+| *Login Screen* | *Signup Screen* | *Home Screen* |
 
-| ![Login Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/login.png) | ![SignUp Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/signup.png) | ![Home Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/home.png) |
-|:---:|:---:|:---:|
-| Login Screen | SignUp Screen | Home Screen |
+| ![Details](./images/details.png) | ![Products](./images/products.png) | ![Search](./images/search.png) |
+|:--:|:--:|:--:|
+| *Details Screen* | *Products Screen* | *Search Screen* |
 
-| ![Product Details Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/details.png) | ![Products Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/products.png) | ![Search Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/search.png) |
-|:---:|:---:|:---:|
-| Product Details Screen | Products Screen | Search Screen |
+| ![Cart](./images/cart.png) | ![Address List](./images/addressList.png) | ![Add Address](./images/addAddress.png) |
+|:--:|:--:|:--:|
+| *Cart Screen* | *Address List Screen* | *Add Address Screen* |
 
-| ![Cart Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/cart.png) | ![Address List Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/addressList.png) | ![Add Address Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/addAddress.png) |
-|:---:|:---:|:---:|
-| Cart Screen | Address List Screen | Add Address Screen |
-
-
-| ![Profile Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/profile.png) | ![Order Confirmation Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/orderConfirmation.png) |
-|:---:|:---:|
-| Profile Screen | Order Confirmation Screen 
-
+| ![Profile](./images/profile.png) | ![Order Confirmation](./images/orderConfirmation.png) |
+|:--:|:--:|
+| *Profile Screen* | *Order Confirmation Screen* |
 
 ## Video Link
 
