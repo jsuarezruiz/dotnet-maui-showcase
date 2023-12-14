@@ -817,3 +817,124 @@ Demonstrates building UI for iOS, Android, Mac and Windows from shared code base
 - Author: [Vinayak Nikam] (https://github.com/nikamvd)
 - Source code: (https://github.com/nikamvd/-.NET-MAUI-Beautiful-UI-Challenge-PlayerProfileApp)
 
+## [FLIPZON - Professional E-Commerce Application](https://github.com/learnToEarnWithSrikanth/FlipZon)
+
+## Description
+Welcome to FLIPZON, an advanced E-Commerce application developed using .NET MAUI. Inspired by the best features of Amazon and Flipkart, FLIPZON brings a seamless shopping experience to users. Leveraging the power of .NET 7, Prism Framework, and MVVM design pattern, FLIPZON integrates various UI controls, custom renders, and third-party libraries for a robust and user-friendly application.
+
+
+## Features
+
+- **Authentication:**
+  - Secure and seamless login and signup screens.
+
+- **Product Discovery:**
+  - Intuitive home screen showcasing featured products.
+  - Products screen with pagination for easy navigation.
+
+- **Product Details:**
+  - Detailed product information with a dedicated product details screen.
+
+- **Search Functionality:**
+  - Efficient search screen for finding desired products.
+
+- **Shopping Cart:**
+  - User-friendly cart screen for managing selected items.
+
+- **Order Placement:**
+  - Streamlined order placement process.
+
+- **User Profile:**
+  - Personalized profile screen for user customization.
+
+- **Address Management:**
+  - Address list screen and an option to add new addresses.
+
+## Screens
+
+- Login Screen
+- SignUp Screen
+- Home Screen
+- Product Details Screen
+- Products Screen
+- Search Screen
+- Cart Screen
+- Address List Screen
+- Add Address Screen
+- Profile Screen
+- Order Confirmation Screen
+
+
+
+## Screenshots
+
+
+
+| ![Login Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/login.png) | ![SignUp Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/signup.png) | ![Home Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/home.png) |
+|:---:|:---:|:---:|
+| Login Screen | SignUp Screen | Home Screen |
+
+| ![Product Details Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/details.png) | ![Products Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/products.png) | ![Search Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/search.png) |
+|:---:|:---:|:---:|
+| Product Details Screen | Products Screen | Search Screen |
+
+| ![Cart Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/cart.png) | ![Address List Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/addressList.png) | ![Add Address Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/addAddress.png) |
+|:---:|:---:|:---:|
+| Cart Screen | Address List Screen | Add Address Screen |
+
+
+| ![Profile Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/profile.png) | ![Order Confirmation Screen](https://github.com/learnToEarnWithSrikanth/FlipZon/blob/main/FlipZon/FlipZon/Screenshots/orderConfirmation.png) |
+|:---:|:---:|
+| Profile Screen | Order Confirmation Screen 
+
+
+## Video Link
+
+Check out our video tutorial for a quick overview of the project:
+
+[![Project Video](https://img.youtube.com/vi/5ePrzhA6QPI/0.jpg)](https://www.youtube.com/watch?v=5ePrzhA6QPI)
+
+## UI Controls 
+
+- Collection View
+- Carousel View
+- Swipe View
+- Forms with Validation
+- Custom Controls
+- Custom Renders
+- Pagination for products
+
+## Tech Stack 
+
+- **.NET MAUI:**
+  - Cutting-edge framework for cross-platform app development.
+
+- **Prism Framework:**
+  - Implementing MVVM design pattern for a modular and maintainable codebase.
+
+- **API Integration:**
+  - Seamless integration with external APIs for up-to-date product information.
+
+- **Database Integration:**
+  - Utilizing SQLite PCL for efficient and reliable data storage.
+
+## 3rd Party Libraries
+
+1. **User Dialogs:**
+   - For Alerts and confirmations Popups.
+
+2. **Mopups:**
+   - To display popups.
+
+3. **Community Toolkit:**
+   - For Form Validations and Converters
+
+4. **SQLite PCL:**
+   - For Database support
+     
+## More information:
+- Author: [Srikanth Rachaputi] (https://github.com/learnToEarnWithSrikanth)
+- Source code: (https://github.com/learnToEarnWithSrikanth/FlipZon)
+
+
+
