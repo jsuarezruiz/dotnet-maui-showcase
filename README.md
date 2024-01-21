@@ -22,7 +22,7 @@ iOS, Android, WinUI and Tizen
 - SignalR
 
 ## More Information
-- Author: [Strypper Vandel Jason](hhttps://github.com/Strypper)
+- Author: [Strypper Vandel Jason](https://github.com/Strypper)
 - Source Code: https://github.com/Strypper/mauisland
 
 
@@ -935,3 +935,30 @@ Check out our video tutorial for a quick overview of the project:
 
 
 
+
+## [NightClub](https://github.com/Kapusch/blog-dotnet-maui/tree/main/Samples/NightClub)
+
+Learn .NET MAUI quickly & simply with my first class for beginners (100% free!). 🐒 
+
+"My First App", it’s 15 articles, nearly 3 hours of reading... and a highly colorful music application!! 🎶 🎉
+
+➡️ https://www.mauicestclair.fr/en/posts/tutos/my-first-app/
+
+🇫🇷 Also available in French!
+
+## Images Preview
+![My%20First%20App%20-%20Disco](https://github.com/Kapusch/dotnet-maui-showcase/assets/9576733/130cca8c-361a-46a8-87c5-2f62c263621f)
+
+
+## Platforms
+iOS, Android, macOS and Windows
+
+## Features
+- C# Markup
+- MVVM
+- MediaElement
+- Animations
+
+## More Information
+- Author: [Jean-Emmanuel Baillat](https://github.com/Kapusch)
+- Source Code: https://github.com/Kapusch/blog-dotnet-maui/tree/main/Samples/NightClub
