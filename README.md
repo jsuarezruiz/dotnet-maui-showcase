@@ -4,6 +4,30 @@ A curated list of awesome **.NET MAUI** open source samples to show how to creat
 
 Contributions are always welcome!
 
+## [WeightTracker](https://github.com/fdmomtaz/WeightTracker-DotNetMaui)
+
+A simple, user-friendly .NET MAUI weight tracker app with a clean design for anyone looking to explore .NET MAUI development.
+
+## Images Preview
+![Project mockup](/images/WeightTracker.png)
+
+## Platforms
+iOS, Android, MacOs
+
+## Features
+- SQLite
+- NET MAUI Community Toolkit
+- Community Toolkit Mvvm
+- AiForms SettingsView
+- UraniumUI Material
+- Microcharts
+- SkiaSharp
+- MVVM
+
+## More Information
+- Author: [Farshad Momtaz](https://github.com/fdmomtaz)
+- Source Code: https://github.com/fdmomtaz/WeightTracker-DotNetMaui
+
 ## [MAUIsland](https://github.com/Strypper/mauisland)
 
 Made for the .NET MAUI Beautiful UI Challenge
